@@ -1,0 +1,46 @@
+1589884591a:1:{s:15:"suggestions.htm";a:9:{s:8:"fileName";s:15:"suggestions.htm";s:7:"content";s:961:"title = "suggestions"
+url = "/suggestions"
+layout = "default"
+is_hidden = 0
+==
+
+<ul class="suggestions__list">
+    {% for product in products[:5] %}
+        <li class="suggestions__item">
+            <a class="suggestions__item-link" href="">
+                <div class="suggestions__item-image product-image">
+                    <div class="product-image__body">
+                        <img class="product-image__img" src="{{ product.images[0] }}.jpg" alt="">
+                    </div>
+                </div>
+                <div class="suggestions__item-info">
+                    <div class="suggestions__item-name">{{ product.name }}</div>
+                    <div class="suggestions__item-meta">SKU: {{ product.features.sku }}</div>
+                </div>
+                <div class="suggestions__item-price">
+                    {{ product.price }}
+                </div>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+";s:5:"mtime";i:1589365973;s:6:"markup";s:873:"<ul class="suggestions__list">
+    {% for product in products[:5] %}
+        <li class="suggestions__item">
+            <a class="suggestions__item-link" href="">
+                <div class="suggestions__item-image product-image">
+                    <div class="product-image__body">
+                        <img class="product-image__img" src="{{ product.images[0] }}.jpg" alt="">
+                    </div>
+                </div>
+                <div class="suggestions__item-info">
+                    <div class="suggestions__item-name">{{ product.name }}</div>
+                    <div class="suggestions__item-meta">SKU: {{ product.features.sku }}</div>
+                </div>
+                <div class="suggestions__item-price">
+                    {{ product.price }}
+                </div>
+            </a>
+        </li>
+    {% endfor %}
+</ul>";s:4:"code";N;s:5:"title";s:11:"suggestions";s:3:"url";s:12:"/suggestions";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

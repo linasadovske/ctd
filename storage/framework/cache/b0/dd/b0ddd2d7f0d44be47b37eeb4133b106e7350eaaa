@@ -1,0 +1,27 @@
+1589884888a:1:{s:19:"footer/contacts.htm";a:5:{s:8:"fileName";s:19:"footer/contacts.htm";s:7:"content";s:861:"<div class="site-footer__widget footer-contacts">
+    <h5 class="footer-contacts__title">UAB „IRLIDA“</h5>
+
+    <div class="footer-contacts__text">
+        Sunkiasvorės technikos ekspertai. Dalių pardavimas, servisas ir konsultacijos.
+    </div>
+
+    <ul class="footer-contacts__contacts">        
+        {% if this.theme.address %}<li><i class="footer-contacts__icon fas fa-globe-americas"></i> {{ this.theme.address }}</li>{% endif %}
+        {% if this.theme.email %}<li><i class="footer-contacts__icon far fa-envelope"></i> {{ this.theme.email }}</li>{% endif %}
+        {% if this.theme.phone %}<li><i class="footer-contacts__icon fas fa-mobile-alt"></i> {{ this.theme.phone }}</li>{% endif %}
+        {% if this.theme.hours %}<li><i class="footer-contacts__icon far fa-clock"></i> {{ this.theme.hours}}</li>{% endif %}
+    </ul>
+</div>";s:5:"mtime";i:1589378430;s:6:"markup";s:861:"<div class="site-footer__widget footer-contacts">
+    <h5 class="footer-contacts__title">UAB „IRLIDA“</h5>
+
+    <div class="footer-contacts__text">
+        Sunkiasvorės technikos ekspertai. Dalių pardavimas, servisas ir konsultacijos.
+    </div>
+
+    <ul class="footer-contacts__contacts">        
+        {% if this.theme.address %}<li><i class="footer-contacts__icon fas fa-globe-americas"></i> {{ this.theme.address }}</li>{% endif %}
+        {% if this.theme.email %}<li><i class="footer-contacts__icon far fa-envelope"></i> {{ this.theme.email }}</li>{% endif %}
+        {% if this.theme.phone %}<li><i class="footer-contacts__icon fas fa-mobile-alt"></i> {{ this.theme.phone }}</li>{% endif %}
+        {% if this.theme.hours %}<li><i class="footer-contacts__icon far fa-clock"></i> {{ this.theme.hours}}</li>{% endif %}
+    </ul>
+</div>";s:4:"code";N;}}

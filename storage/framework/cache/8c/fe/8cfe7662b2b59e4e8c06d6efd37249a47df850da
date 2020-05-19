@@ -1,0 +1,70 @@
+1589884591a:1:{s:20:"account-password.htm";a:9:{s:8:"fileName";s:20:"account-password.htm";s:7:"content";s:1583:"title = "Slaptažodis"
+url = "/slaptazodis"
+layout = "default"
+is_hidden = 0
+==
+
+{% set current_account_page = 'account-password.html' %}
+
+{% block account_body %}
+    <div class="card">
+        <div class="card-header">
+            <h5>Pakeisti slaptažodį</h5>
+        </div>
+        <div class="card-divider"></div>
+        <div class="card-body">
+            <div class="row no-gutters">
+                <div class="col-12 col-lg-7 col-xl-6">
+                    <div class="form-group">
+                        <label for="password-current">Dabartinis slaptažodis</label>
+                        <input type="password" class="form-control" id="password-current" placeholder="Dabartinis slaptažodis">
+                    </div>
+                    <div class="form-group">
+                        <label for="password-new">Naujas slaptažodis</label>
+                        <input type="password" class="form-control" id="password-new" placeholder="Naujas slaptažodis">
+                    </div>
+                    <div class="form-group">
+                        <label for="password-confirm">Pakartoti naują slaptažodį</label>
+                        <input type="password" class="form-control" id="password-confirm" placeholder="Pakartoti naują slaptažodį">
+                    </div>
+
+                    <div class="form-group mt-5 mb-0">
+                        <button class="btn btn-primary">Pakeisti</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+";s:5:"mtime";i:1589362070;s:6:"markup";s:1494:"{% set current_account_page = 'account-password.html' %}
+
+{% block account_body %}
+    <div class="card">
+        <div class="card-header">
+            <h5>Pakeisti slaptažodį</h5>
+        </div>
+        <div class="card-divider"></div>
+        <div class="card-body">
+            <div class="row no-gutters">
+                <div class="col-12 col-lg-7 col-xl-6">
+                    <div class="form-group">
+                        <label for="password-current">Dabartinis slaptažodis</label>
+                        <input type="password" class="form-control" id="password-current" placeholder="Dabartinis slaptažodis">
+                    </div>
+                    <div class="form-group">
+                        <label for="password-new">Naujas slaptažodis</label>
+                        <input type="password" class="form-control" id="password-new" placeholder="Naujas slaptažodis">
+                    </div>
+                    <div class="form-group">
+                        <label for="password-confirm">Pakartoti naują slaptažodį</label>
+                        <input type="password" class="form-control" id="password-confirm" placeholder="Pakartoti naują slaptažodį">
+                    </div>
+
+                    <div class="form-group mt-5 mb-0">
+                        <button class="btn btn-primary">Pakeisti</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:5:"title";s:12:"Slaptažodis";s:3:"url";s:12:"/slaptazodis";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

@@ -1,0 +1,45 @@
+1589884889a:1:{s:21:"footer/newsletter.htm";a:5:{s:8:"fileName";s:21:"footer/newsletter.htm";s:7:"content";s:967:"<div class="site-footer__widget footer-newsletter">
+    <h5 class="footer-newsletter__title">Prenumerata</h5>
+    <div class="footer-newsletter__text">
+        Užsiprenumeruokite naujienlaiškį. Prenumeratos galite atsisakyti bet kuriuo metu.
+    </div>
+
+    <form action="" class="footer-newsletter__form">
+        <label class="sr-only" for="footer-newsletter-address">El. paštas</label>
+        <input type="text" class="footer-newsletter__form-input form-control" id="footer-newsletter-address" placeholder="El. paštas...">
+
+        <button class="footer-newsletter__form-button btn btn-primary">Prenumeruoti</button>
+    </form>
+
+    <div class="footer-newsletter__text footer-newsletter__text--social">
+        TDC socialiniuose tinkluose
+    </div>
+
+    {# {% include '/partials/social-links.twig' with {
+        classes: 'footer-newsletter__social-links',
+        shape: 'circle',
+    } %} #}
+    {% partial 'social-links' %} 
+</div>";s:5:"mtime";i:1589366964;s:6:"markup";s:967:"<div class="site-footer__widget footer-newsletter">
+    <h5 class="footer-newsletter__title">Prenumerata</h5>
+    <div class="footer-newsletter__text">
+        Užsiprenumeruokite naujienlaiškį. Prenumeratos galite atsisakyti bet kuriuo metu.
+    </div>
+
+    <form action="" class="footer-newsletter__form">
+        <label class="sr-only" for="footer-newsletter-address">El. paštas</label>
+        <input type="text" class="footer-newsletter__form-input form-control" id="footer-newsletter-address" placeholder="El. paštas...">
+
+        <button class="footer-newsletter__form-button btn btn-primary">Prenumeruoti</button>
+    </form>
+
+    <div class="footer-newsletter__text footer-newsletter__text--social">
+        TDC socialiniuose tinkluose
+    </div>
+
+    {# {% include '/partials/social-links.twig' with {
+        classes: 'footer-newsletter__social-links',
+        shape: 'circle',
+    } %} #}
+    {% partial 'social-links' %} 
+</div>";s:4:"code";N;}}

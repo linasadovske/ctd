@@ -1,0 +1,66 @@
+1589380962a:1:{s:19:"header/megamenu.htm";a:5:{s:8:"fileName";s:19:"header/megamenu.htm";s:7:"content";s:1529:"{#
+// inputs:
+// - megamenu: object
+#}
+
+<!-- .megamenu -->
+<div class="megamenu {% if layout_departments %} megamenu--departments {% endif %}">
+    <div class="megamenu__body" {% if megamenu.image %} style="background-image: url('{{ megamenu.image }}');" {% endif %}>
+        <div class="row">
+            {% for column in megamenu.columns %}
+                <div class="col-{{ column.size }}">
+                    <ul class="megamenu__links megamenu__links--level--0">
+                        {% for link in column.links %}
+                            <li class="megamenu__item {% if link.links %} megamenu__item--with-submenu {% endif %}">
+                                {% if link.title %}
+                                    <a href="{{ link.url }}">{{ link.title }}</a>
+                                {% endif %}
+                                {% if link.links %}
+                                    <ul class="megamenu__links megamenu__links--level--1">
+                                        {% for link in link.links %}
+                                            <li class="megamenu__item"><a href="{{ link.url }}">{{ link.title }}</a></li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- .megamenu / end -->
+";s:5:"mtime";i:1589366138;s:6:"markup";s:1527:"{#
+// inputs:
+// - megamenu: object
+#}
+
+<!-- .megamenu -->
+<div class="megamenu {% if layout_departments %} megamenu--departments {% endif %}">
+    <div class="megamenu__body" {% if megamenu.image %} style="background-image: url('{{ megamenu.image }}');" {% endif %}>
+        <div class="row">
+            {% for column in megamenu.columns %}
+                <div class="col-{{ column.size }}">
+                    <ul class="megamenu__links megamenu__links--level--0">
+                        {% for link in column.links %}
+                            <li class="megamenu__item {% if link.links %} megamenu__item--with-submenu {% endif %}">
+                                {% if link.title %}
+                                    <a href="{{ link.url }}">{{ link.title }}</a>
+                                {% endif %}
+                                {% if link.links %}
+                                    <ul class="megamenu__links megamenu__links--level--1">
+                                        {% for link in link.links %}
+                                            <li class="megamenu__item"><a href="{{ link.url }}">{{ link.title }}</a></li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- .megamenu / end -->";s:4:"code";N;}}

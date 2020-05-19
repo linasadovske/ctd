@@ -1,0 +1,30 @@
+title = "Grąžinimo sąlygos"
+url = "/grazinimo-salygos"
+layout = "Default"
+is_hidden = 0
+
+[staticPage]
+useContent = 1
+default = 0
+
+[staticPage staticPage2]
+useContent = 1
+default = 0
+==
+{% block site_body %}
+    {% partial 'page-header' without_title=true %}
+
+    <div class="block">
+        <div class="container">
+            <div class="document">
+                <div class="document__header">
+                    <h1 class="document__title">Grąžinimo sąlygos</h1>
+                    <div class="document__subtitle">This Agreement was last modified on 27 May 2018.</div>
+                </div>
+                <div class="document__content typography">
+                    {% page %}{% component 'staticPage2' %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

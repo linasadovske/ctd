@@ -1,0 +1,22 @@
+title = "Straipsnis without sidebar"
+url = "/post-without-sidebar"
+layout = "default"
+is_hidden = 0
+==
+
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Straipsnis',
+        without_title: true
+    } %}
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9 col-xl-8">
+                {% include '/partials/post.twig' with {
+                    layout: 'full'
+                } %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

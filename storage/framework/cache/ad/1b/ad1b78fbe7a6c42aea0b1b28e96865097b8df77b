@@ -1,0 +1,158 @@
+1589884591a:1:{s:21:"account-dashboard.htm";a:9:{s:8:"fileName";s:21:"account-dashboard.htm";s:7:"content";s:3402:"title = "Mano paskyra"
+url = "/mano-paskyra"
+layout = "default"
+is_hidden = 0
+==
+
+{% set current_account_page = 'account-dashboard.html' %}
+{% extends '/layouts/account.twig' %}
+
+{% block account_body %}
+    {% set address = addresses|first %}
+
+    <div class="dashboard">
+        <div class="dashboard__profile card profile-card">
+            <div class="card-body profile-card__body">
+                <div class="profile-card__avatar">
+                    <img src="images/avatars/avatar-3.jpg" alt="">
+                </div>
+                <div class="profile-card__name">Helena Garcia</div>
+                <div class="profile-card__email">stroyka@example.com</div>
+                <div class="profile-card__edit">
+                    <a href="account-profile.html" class="btn btn-secondary btn-sm">Redaguoti informaciją</a>
+                </div>
+            </div>
+        </div>
+        <div class="dashboard__address card address-card address-card--featured">
+            {% if address.default %}
+                <div class="address-card__badge">Pagrindinis adresas</div>
+            {% endif %}
+            <div class="address-card__body">
+                <div class="address-card__name">{{ address.firstName~' '~address.lastName}}</div>
+                <div class="address-card__row">
+                    {{ address.country }}<br>
+                    {{ address.postcode }}, {{ address.city }}<br>
+                    {{ address.address }}
+                </div>
+                <div class="address-card__row">
+                    <div class="address-card__row-title">Telefono nr.</div>
+                    <div class="address-card__row-content">{{ address.phone }}</div>
+                </div>
+                <div class="address-card__row">
+                    <div class="address-card__row-title">El. paštas</div>
+                    <div class="address-card__row-content">{{ address.email }}</div>
+                </div>
+                <div class="address-card__footer">
+                    <a href="account-edit-address.html">Redaguoti adresą</a>
+                </div>
+            </div>
+        </div>
+        <div class="dashboard__orders card">
+            <div class="card-header">
+                <h5>Paskutiniai užsakymai</h5>
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-table">
+                <div class="table-responsive-sm">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Užsakymas</th>
+                            <th>Data</th>
+                            <th>Būsena</th>
+                            <th>Suma</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for order in orders[:3] %}
+                            <tr>
+                                <td><a href="">#{{ order.id }}</a></td>
+                                <td>{{ order.date }}</td>
+                                <td>{{ order.status }}</td>
+                                <td>{{ order.total }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+";s:5:"mtime";i:1589361874;s:6:"markup";s:3312:"{% set current_account_page = 'account-dashboard.html' %}
+{% extends '/layouts/account.twig' %}
+
+{% block account_body %}
+    {% set address = addresses|first %}
+
+    <div class="dashboard">
+        <div class="dashboard__profile card profile-card">
+            <div class="card-body profile-card__body">
+                <div class="profile-card__avatar">
+                    <img src="images/avatars/avatar-3.jpg" alt="">
+                </div>
+                <div class="profile-card__name">Helena Garcia</div>
+                <div class="profile-card__email">stroyka@example.com</div>
+                <div class="profile-card__edit">
+                    <a href="account-profile.html" class="btn btn-secondary btn-sm">Redaguoti informaciją</a>
+                </div>
+            </div>
+        </div>
+        <div class="dashboard__address card address-card address-card--featured">
+            {% if address.default %}
+                <div class="address-card__badge">Pagrindinis adresas</div>
+            {% endif %}
+            <div class="address-card__body">
+                <div class="address-card__name">{{ address.firstName~' '~address.lastName}}</div>
+                <div class="address-card__row">
+                    {{ address.country }}<br>
+                    {{ address.postcode }}, {{ address.city }}<br>
+                    {{ address.address }}
+                </div>
+                <div class="address-card__row">
+                    <div class="address-card__row-title">Telefono nr.</div>
+                    <div class="address-card__row-content">{{ address.phone }}</div>
+                </div>
+                <div class="address-card__row">
+                    <div class="address-card__row-title">El. paštas</div>
+                    <div class="address-card__row-content">{{ address.email }}</div>
+                </div>
+                <div class="address-card__footer">
+                    <a href="account-edit-address.html">Redaguoti adresą</a>
+                </div>
+            </div>
+        </div>
+        <div class="dashboard__orders card">
+            <div class="card-header">
+                <h5>Paskutiniai užsakymai</h5>
+            </div>
+            <div class="card-divider"></div>
+            <div class="card-table">
+                <div class="table-responsive-sm">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>Užsakymas</th>
+                            <th>Data</th>
+                            <th>Būsena</th>
+                            <th>Suma</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for order in orders[:3] %}
+                            <tr>
+                                <td><a href="">#{{ order.id }}</a></td>
+                                <td>{{ order.date }}</td>
+                                <td>{{ order.status }}</td>
+                                <td>{{ order.total }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}";s:4:"code";N;s:5:"title";s:12:"Mano paskyra";s:3:"url";s:13:"/mano-paskyra";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

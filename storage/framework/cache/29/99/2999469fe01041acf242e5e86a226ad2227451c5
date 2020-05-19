@@ -1,0 +1,47 @@
+1589884591a:1:{s:8:"post.htm";a:9:{s:8:"fileName";s:8:"post.htm";s:7:"content";s:696:"title = "Straipsnis"
+url = "/straipsnis"
+layout = "default"
+is_hidden = 0
+==
+
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Straipsnis',
+        without_title: true
+    } %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                {% include '/partials/post.twig' with {
+                    layout: 'classic'
+                } %}
+            </div>
+            <div class="col-12 col-lg-4">
+                {% include '/partials/blog-sidebar.twig' with {
+                    position: 'end'
+                } %}
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:5:"mtime";i:1589365520;s:6:"markup";s:612:"{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Straipsnis',
+        without_title: true
+    } %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                {% include '/partials/post.twig' with {
+                    layout: 'classic'
+                } %}
+            </div>
+            <div class="col-12 col-lg-4">
+                {% include '/partials/blog-sidebar.twig' with {
+                    position: 'end'
+                } %}
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:5:"title";s:10:"Straipsnis";s:3:"url";s:11:"/straipsnis";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

@@ -1,0 +1,23 @@
+<div class="site-footer__widget footer-newsletter">
+    <h5 class="footer-newsletter__title">Prenumerata</h5>
+    <div class="footer-newsletter__text">
+        Užsiprenumeruokite naujienlaiškį. Prenumeratos galite atsisakyti bet kuriuo metu.
+    </div>
+
+    <form action="" class="footer-newsletter__form">
+        <label class="sr-only" for="footer-newsletter-address">El. paštas</label>
+        <input type="text" class="footer-newsletter__form-input form-control" id="footer-newsletter-address" placeholder="El. paštas...">
+
+        <button class="footer-newsletter__form-button btn btn-primary">Prenumeruoti</button>
+    </form>
+
+    <div class="footer-newsletter__text footer-newsletter__text--social">
+        TDC socialiniuose tinkluose
+    </div>
+
+    {# {% include '/partials/social-links.twig' with {
+        classes: 'footer-newsletter__social-links',
+        shape: 'circle',
+    } %} #}
+    {% partial 'social-links' %} 
+</div>

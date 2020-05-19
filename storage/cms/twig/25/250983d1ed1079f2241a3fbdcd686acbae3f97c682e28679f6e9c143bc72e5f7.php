@@ -1,0 +1,208 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* /Applications/MAMP/htdocs/tdc/themes/tdc/partials/header/mobile-header.htm */
+class __TwigTemplate_597fc3fc8f3a4036b5cb79f388eda1959cd425374b5ccad76afc7a24f300c34c extends \Twig\Template
+{
+    private $source;
+    private $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 1
+        echo "<!-- data-sticky-mode - one of [pullToShow, alwaysOnTop] -->
+<div class=\"mobile-header mobile-header--sticky\" data-sticky-mode=\"pullToShow\">
+    <div class=\"mobile-header__panel\">
+        <div class=\"container\">
+            <div class=\"mobile-header__body\">
+                <button class=\"mobile-header__menu-button\">
+                    <svg width=\"18px\" height=\"14px\">
+                        <use xlink:href=\"";
+        // line 8
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/sprite.svg#menu-18x14");
+        echo "\"></use>
+                    </svg>
+                </button>
+                <a class=\"mobile-header__logo\" href=\"index.html\">
+                    <!-- mobile-logo -->
+                    ";
+        // line 32
+        echo "                    <svg viewBox=\"0 0 1080 414\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" height=\"40px\"><linearGradient id=\"gradient3\" gradientUnits=\"userSpaceOnUse\" x1=\"30.87\" x2=\"334.26\" y1=\"166.21\" y2=\"166.21\"><stop offset=\"0\" stop-color=\"#75ec7a\"/><stop offset=\"1\" stop-color=\"#07afb8\"/></linearGradient><linearGradient id=\"gradient4\" gradientUnits=\"userSpaceOnUse\" x1=\"44.25\" x2=\"352.66\" y1=\"225.89\" y2=\"225.89\"><stop offset=\"0\" stop-color=\"#04bac7\"/><stop offset=\"1\" stop-color=\"#0458b1\"/></linearGradient><path d=\"m82.65 226.66 20.1-82.24c4.75-19.42 25.59-33.42 49.78-33.42h22.55c2.64 0 3.88 2.7 1.88 4.11-19.23 13.53-45.15 26.87-20.24 27h2.77c26.37 0 49.47-1.86 69.69-5.64 34.48-8.46 64.47-22.41 86-40.7a113.23 113.23 0 0 0 19.06-20.4h-181.71c-44.92 0-83.61 26-92.43 62.07l-29.23 119.61c14.32-11.96 31.9-22.18 51.78-30.39z\" fill=\"url(#gradient3)\"/><path d=\"m279 151.08-20.37 101.92a51.72 51.72 0 0 1 -50.58 41.45h-23a2.9 2.9 0 0 1 -1.89-5.1c19.49-16.68 45.37-33 20.21-33.18h-2.81c-26.64 0-50 2.28-70.46 6.92-35.17 10.47-65.76 27.79-87.73 50.54a134 134 0 0 0 -19 24.78l-.05.24h184.73a95.77 95.77 0 0 0 93.9-77l29.73-148.53c-14.53 14.95-32.41 27.71-52.68 37.96z\" fill=\"url(#gradient4)\"/><g fill=\"#ffffff\"><path d=\"m472.94 148.87h-64.66l9.62-47.22h188.58l-9.63 47.22h-64.36l-32.78 163.31h-59.55z\"/><path d=\"m628.74 101.65h91.43c65.56 0 105.57 34 105.57 88.42 0 74.59-54.14 122.11-131.44 122.11h-107.67zm67.37 163c44.51 0 69.47-30.68 69.47-71 0-28-17.74-44.51-52-44.51h-34.91l-22.86 115.52z\"/><path d=\"m839.28 223.76c0-73.09 53.83-126.32 132-126.32 38.8 0 70.38 14.13 85.42 39.7l-43 34.28c-9.93-15.94-25.26-24.66-46.32-24.66-40.9 0-68 31.58-68 73.09 0 28.27 19.25 47.22 51.43 47.22 18.95 0 36.39-7.22 51.43-24.37l35.19 34.59c-23.76 28.57-54.74 39.1-92.33 39.1-64.62 0-105.82-37.6-105.82-92.63z\"/></g></svg>
+                    <!-- mobile-logo / end -->
+                </a>
+
+                ";
+        // line 40
+        echo "
+               ";
+        // line 41
+        $context['__cms_partial_params'] = [];
+        $context['__cms_partial_params']['location'] = "mobile-header"        ;
+        $context['__cms_partial_params']['classes'] = "mobile-header__search"        ;
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header/search"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 42
+        echo "
+                <div class=\"mobile-header__indicators\">
+                    <div class=\"indicator indicator--mobile-search indicator--mobile d-md-none\">
+                        <button class=\"indicator__button\">
+                            <span class=\"indicator__area\">
+                                <svg width=\"20px\" height=\"20px\"><use xlink:href=\"";
+        // line 47
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/sprite.svg#search-20");
+        echo "\"></use></svg>
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class=\"indicator indicator--mobile d-sm-flex d-none\">
+                        <a href=\"wishlist.html\" class=\"indicator__button\">
+                            <span class=\"indicator__area\">
+                                <svg width=\"20px\" height=\"20px\"><use xlink:href=\"";
+        // line 55
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/sprite.svg#heart-20");
+        echo "\"></use></svg>
+                                <span class=\"indicator__value\">0</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class=\"indicator indicator--mobile\">
+                        <a href=\"cart.html\" class=\"indicator__button\"";
+        // line 62
+        if ((($context["cart_style"] ?? null) == "offcanvas")) {
+            echo " data-open=\"offcanvas-cart\"";
+        }
+        echo ">
+                            <span class=\"indicator__area\">
+                                <svg width=\"20px\" height=\"20px\"><use xlink:href=\"";
+        // line 64
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/sprite.svg#cart-20");
+        echo "\"></use></svg>
+                                <span class=\"indicator__value\">3</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>";
+    }
+
+    public function getTemplateName()
+    {
+        return "/Applications/MAMP/htdocs/tdc/themes/tdc/partials/header/mobile-header.htm";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  104 => 64,  97 => 62,  87 => 55,  76 => 47,  69 => 42,  63 => 41,  60 => 40,  54 => 32,  46 => 8,  37 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("<!-- data-sticky-mode - one of [pullToShow, alwaysOnTop] -->
+<div class=\"mobile-header mobile-header--sticky\" data-sticky-mode=\"pullToShow\">
+    <div class=\"mobile-header__panel\">
+        <div class=\"container\">
+            <div class=\"mobile-header__body\">
+                <button class=\"mobile-header__menu-button\">
+                    <svg width=\"18px\" height=\"14px\">
+                        <use xlink:href=\"{{ 'assets/images/sprite.svg#menu-18x14'|theme }}\"></use>
+                    </svg>
+                </button>
+                <a class=\"mobile-header__logo\" href=\"index.html\">
+                    <!-- mobile-logo -->
+                    {# <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120px\" height=\"20px\">
+                        <path d=\"M118.5,20h-1.1c-0.6,0-1.2-0.4-1.4-1l-1.5-4h-6.1l-1.5,4c-0.2,0.6-0.8,1-1.4,1h-1.1c-1,0-1.8-1-1.4-2l1.1-3
+                                 l1.5-4l3.6-10c0.2-0.6,0.8-1,1.4-1h1.6c0.6,0,1.2,0.4,1.4,1l3.6,10l1.5,4l1.1,3C120.3,19,119.5,20,118.5,20z M111.5,6.6l-1.6,4.4
+                                 h3.2L111.5,6.6z M99.5,20h-1.4c-0.4,0-0.7-0.2-0.9-0.5L94,14l-2,3.5v1c0,0.8-0.7,1.5-1.5,1.5h-1c-0.8,0-1.5-0.7-1.5-1.5v-17
+                                 C88,0.7,88.7,0,89.5,0h1C91.3,0,92,0.7,92,1.5v8L94,6l3.2-5.5C97.4,0.2,97.7,0,98.1,0h1.4c1.2,0,1.9,1.3,1.3,2.3L96.3,10l4.5,7.8
+                                 C101.4,18.8,100.7,20,99.5,20z M80.3,11.8L80,12.3v6.2c0,0.8-0.7,1.5-1.5,1.5h-1c-0.8,0-1.5-0.7-1.5-1.5v-6.2l-0.3-0.5l-5.5-9.5
+                                 c-0.6-1,0.2-2.3,1.3-2.3h1.4c0.4,0,0.7,0.2,0.9,0.5L76,4.3l2,3.5l2-3.5l2.2-3.8C82.4,0.2,82.7,0,83.1,0h1.4c1.2,0,1.9,1.3,1.3,2.3
+                                 L80.3,11.8z M60,20c-5.5,0-10-4.5-10-10S54.5,0,60,0s10,4.5,10,10S65.5,20,60,20z M60,4c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6
+                                 S63.3,4,60,4z M47.8,17.8c0.6,1-0.2,2.3-1.3,2.3h-2L41,14h-4v4.5c0,0.8-0.7,1.5-1.5,1.5h-1c-0.8,0-1.5-0.7-1.5-1.5v-17
+                                 C33,0.7,33.7,0,34.5,0H41c0.3,0,0.7,0,1,0.1c3.4,0.5,6,3.4,6,6.9c0,2.4-1.2,4.5-3.1,5.8L47.8,17.8z M42,4.2C41.7,4.1,41.3,4,41,4h-3
+                                 c-0.6,0-1,0.4-1,1v4c0,0.6,0.4,1,1,1h3c0.3,0,0.7-0.1,1-0.2c0.3-0.1,0.6-0.3,0.9-0.5C43.6,8.8,44,7.9,44,7C44,5.7,43.2,4.6,42,4.2z
+                                  M29.5,4H25v14.5c0,0.8-0.7,1.5-1.5,1.5h-1c-0.8,0-1.5-0.7-1.5-1.5V4h-4.5C15.7,4,15,3.3,15,2.5v-1C15,0.7,15.7,0,16.5,0h13
+                                 C30.3,0,31,0.7,31,1.5v1C31,3.3,30.3,4,29.5,4z M6.5,20c-2.8,0-5.5-1.7-6.4-4c-0.4-1,0.3-2,1.3-2h1c0.5,0,0.9,0.3,1.2,0.7
+                                 c0.2,0.3,0.4,0.6,0.8,0.8C4.9,15.8,5.8,16,6.5,16c1.5,0,2.8-0.9,2.8-2c0-0.7-0.5-1.3-1.2-1.6C7.4,12,7,11,7.4,10.3l0.4-0.9
+                                 c0.4-0.7,1.2-1,1.8-0.6c0.6,0.3,1.2,0.7,1.6,1.2c1,1.1,1.7,2.5,1.7,4C13,17.3,10.1,20,6.5,20z M11.6,6h-1c-0.5,0-0.9-0.3-1.2-0.7
+                                 C9.2,4.9,8.9,4.7,8.6,4.5C8.1,4.2,7.2,4,6.5,4C5,4,3.7,4.9,3.7,6c0,0.7,0.5,1.3,1.2,1.6C5.6,8,6,9,5.6,9.7l-0.4,0.9
+                                 c-0.4,0.7-1.2,1-1.8,0.6c-0.6-0.3-1.2-0.7-1.6-1.2C0.6,8.9,0,7.5,0,6c0-3.3,2.9-6,6.5-6c2.8,0,5.5,1.7,6.4,4C13.3,4.9,12.6,6,11.6,6
+                                 z\"></path>
+                    </svg> #}
+                    <svg viewBox=\"0 0 1080 414\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" height=\"40px\"><linearGradient id=\"gradient3\" gradientUnits=\"userSpaceOnUse\" x1=\"30.87\" x2=\"334.26\" y1=\"166.21\" y2=\"166.21\"><stop offset=\"0\" stop-color=\"#75ec7a\"/><stop offset=\"1\" stop-color=\"#07afb8\"/></linearGradient><linearGradient id=\"gradient4\" gradientUnits=\"userSpaceOnUse\" x1=\"44.25\" x2=\"352.66\" y1=\"225.89\" y2=\"225.89\"><stop offset=\"0\" stop-color=\"#04bac7\"/><stop offset=\"1\" stop-color=\"#0458b1\"/></linearGradient><path d=\"m82.65 226.66 20.1-82.24c4.75-19.42 25.59-33.42 49.78-33.42h22.55c2.64 0 3.88 2.7 1.88 4.11-19.23 13.53-45.15 26.87-20.24 27h2.77c26.37 0 49.47-1.86 69.69-5.64 34.48-8.46 64.47-22.41 86-40.7a113.23 113.23 0 0 0 19.06-20.4h-181.71c-44.92 0-83.61 26-92.43 62.07l-29.23 119.61c14.32-11.96 31.9-22.18 51.78-30.39z\" fill=\"url(#gradient3)\"/><path d=\"m279 151.08-20.37 101.92a51.72 51.72 0 0 1 -50.58 41.45h-23a2.9 2.9 0 0 1 -1.89-5.1c19.49-16.68 45.37-33 20.21-33.18h-2.81c-26.64 0-50 2.28-70.46 6.92-35.17 10.47-65.76 27.79-87.73 50.54a134 134 0 0 0 -19 24.78l-.05.24h184.73a95.77 95.77 0 0 0 93.9-77l29.73-148.53c-14.53 14.95-32.41 27.71-52.68 37.96z\" fill=\"url(#gradient4)\"/><g fill=\"#ffffff\"><path d=\"m472.94 148.87h-64.66l9.62-47.22h188.58l-9.63 47.22h-64.36l-32.78 163.31h-59.55z\"/><path d=\"m628.74 101.65h91.43c65.56 0 105.57 34 105.57 88.42 0 74.59-54.14 122.11-131.44 122.11h-107.67zm67.37 163c44.51 0 69.47-30.68 69.47-71 0-28-17.74-44.51-52-44.51h-34.91l-22.86 115.52z\"/><path d=\"m839.28 223.76c0-73.09 53.83-126.32 132-126.32 38.8 0 70.38 14.13 85.42 39.7l-43 34.28c-9.93-15.94-25.26-24.66-46.32-24.66-40.9 0-68 31.58-68 73.09 0 28.27 19.25 47.22 51.43 47.22 18.95 0 36.39-7.22 51.43-24.37l35.19 34.59c-23.76 28.57-54.74 39.1-92.33 39.1-64.62 0-105.82-37.6-105.82-92.63z\"/></g></svg>
+                    <!-- mobile-logo / end -->
+                </a>
+
+                {# {% include '/header/search.twig' with {
+                    location: 'mobile-header',
+                    classes: 'mobile-header__search'
+                } only %} #}
+
+               {% partial 'header/search' location=\"mobile-header\" classes=\"mobile-header__search\" %}
+
+                <div class=\"mobile-header__indicators\">
+                    <div class=\"indicator indicator--mobile-search indicator--mobile d-md-none\">
+                        <button class=\"indicator__button\">
+                            <span class=\"indicator__area\">
+                                <svg width=\"20px\" height=\"20px\"><use xlink:href=\"{{ 'assets/images/sprite.svg#search-20'|theme }}\"></use></svg>
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class=\"indicator indicator--mobile d-sm-flex d-none\">
+                        <a href=\"wishlist.html\" class=\"indicator__button\">
+                            <span class=\"indicator__area\">
+                                <svg width=\"20px\" height=\"20px\"><use xlink:href=\"{{ 'assets/images/sprite.svg#heart-20'|theme }}\"></use></svg>
+                                <span class=\"indicator__value\">0</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class=\"indicator indicator--mobile\">
+                        <a href=\"cart.html\" class=\"indicator__button\"{% if cart_style == 'offcanvas' %} data-open=\"offcanvas-cart\"{% endif %}>
+                            <span class=\"indicator__area\">
+                                <svg width=\"20px\" height=\"20px\"><use xlink:href=\"{{ 'assets/images/sprite.svg#cart-20'|theme }}\"></use></svg>
+                                <span class=\"indicator__value\">3</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>", "/Applications/MAMP/htdocs/tdc/themes/tdc/partials/header/mobile-header.htm", "");
+    }
+}

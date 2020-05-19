@@ -1,0 +1,19 @@
+1589380962a:1:{s:25:"widgets/widget-search.htm";a:5:{s:8:"fileName";s:25:"widgets/widget-search.htm";s:7:"content";s:451:"<div class="widget-search">
+    <form class="widget-search__body">
+        <input class="widget-search__input" placeholder="Blog search..." type="text" autocomplete="off" spellcheck="false">
+        <button class="widget-search__button" type="submit">
+            <svg width="20px" height="20px">
+                <use xlink:href="{{ 'assets/images/sprite.svg#search-20'|theme }}"></use>
+            </svg>
+        </button>
+    </form>
+</div>";s:5:"mtime";i:1589371176;s:6:"markup";s:451:"<div class="widget-search">
+    <form class="widget-search__body">
+        <input class="widget-search__input" placeholder="Blog search..." type="text" autocomplete="off" spellcheck="false">
+        <button class="widget-search__button" type="submit">
+            <svg width="20px" height="20px">
+                <use xlink:href="{{ 'assets/images/sprite.svg#search-20'|theme }}"></use>
+            </svg>
+        </button>
+    </form>
+</div>";s:4:"code";N;}}

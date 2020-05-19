@@ -1,0 +1,38 @@
+name: 'Footer menu'
+items:
+    -
+        title: 'Pirkimo taisyklės'
+        type: cms-page
+        code: ''
+        reference: terms-and-conditions
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Grąžinimo sąlygos'
+        type: cms-page
+        code: ''
+        reference: returns
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Privatumo ir slapukų politika'
+        type: cms-page
+        code: ''
+        reference: privacy
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Dažniausiai užduodami klausimai'
+        type: cms-page
+        code: ''
+        reference: faq
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'

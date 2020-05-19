@@ -1,0 +1,38 @@
+title = "404"
+url = "/404"
+layout = "default"
+is_hidden = 0
+==
+
+{% block site_body %}
+    <div class="block">
+        <div class="container">
+            <div class="not-found">
+                <div class="not-found__404">
+                    Klaida 404
+                </div>
+
+                <div class="not-found__content">
+                    <h1 class="not-found__title">Puslapis nerastas</h1>
+
+                    <p class="not-found__text">
+                        Panašu, kad negalime rasti ieškomo puslapio. <br>
+                        Pabandykite naudoti paiešką.
+                    </p>
+
+                    <form class="not-found__search">
+                        <input type="text" class="not-found__search-input form-control" placeholder="Paieška...">
+                        <button type="submit" class="not-found__search-button btn btn-primary">Ieškoti</button>
+                    </form>
+
+                    <p class="not-found__text">
+                        Arba grįžkite į pagrindinį puslapį.
+                    </p>
+
+                    <a class="btn btn-secondary btn-sm" href="index.html">Grįžti</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

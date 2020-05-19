@@ -1,0 +1,39 @@
+1589380962a:1:{s:24:"widgets/widget-posts.htm";a:5:{s:8:"fileName";s:24:"widgets/widget-posts.htm";s:7:"content";s:762:"<div class="widget-posts widget">
+    <h4 class="widget__title">Latest Posts</h4>
+    <div class="widget-posts__list">
+        {% for post in posts[:3] %}
+            <div class="widget-posts__item">
+                <div class="widget-posts__image">
+                    <a href="">
+                        <img src="{{ post.image }}-thumbnail.jpg" alt="">
+                    </a>
+                </div>
+                <div class="widget-posts__info">
+                    <div class="widget-posts__name">
+                        <a href="">{{ post.title }}</a>
+                    </div>
+                    <div class="widget-posts__date">{{ post.date }}</div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>";s:5:"mtime";i:1589366224;s:6:"markup";s:762:"<div class="widget-posts widget">
+    <h4 class="widget__title">Latest Posts</h4>
+    <div class="widget-posts__list">
+        {% for post in posts[:3] %}
+            <div class="widget-posts__item">
+                <div class="widget-posts__image">
+                    <a href="">
+                        <img src="{{ post.image }}-thumbnail.jpg" alt="">
+                    </a>
+                </div>
+                <div class="widget-posts__info">
+                    <div class="widget-posts__name">
+                        <a href="">{{ post.title }}</a>
+                    </div>
+                    <div class="widget-posts__date">{{ post.date }}</div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>";s:4:"code";N;}}

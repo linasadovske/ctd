@@ -1,0 +1,13 @@
+[staticMenu]
+code = "footer-menu"
+
+[viewBag]
+==
+<div class="site-footer__widget footer-links">
+    <h5 class="footer-links__title">{{ title }}</h5>
+    {% if staticMenu.menuItems %}
+    <ul class="footer-links__list">
+        {% partial staticMenu ~ "::items" items=staticMenu.menuItems location="footer" %}
+    </ul>
+{% endif %}
+</div>

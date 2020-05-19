@@ -1,0 +1,77 @@
+1589884591a:1:{s:21:"blog-left-sidebar.htm";a:9:{s:8:"fileName";s:21:"blog-left-sidebar.htm";s:7:"content";s:1583:"title = "Latest News Grid lg"
+url = "/latest-news-grid-lg"
+layout = "default"
+is_hidden = 0
+==
+
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Latest News'
+    } %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 order-1 order-lg-0">
+                {% include '/partials/blog-sidebar.twig' with {
+                    position: 'start'
+                } %}
+            </div>
+            <div class="col-12 col-lg-8">
+                <div class="block">
+                    <div class="posts-view">
+                        <div class="posts-view__list posts-list posts-list--layout--classic">
+                            <div class="posts-list__body">
+                                {% for post in posts %}
+                                    <div class="posts-list__item">
+                                        {% include '/partials/post-card.twig' with {
+                                            post: post,
+                                            layout: 'grid-lg'
+                                        } only %}
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="posts-view__pagination">
+                            {% include '/partials/pagination.twig' %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:5:"mtime";i:1589364892;s:6:"markup";s:1481:"{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Latest News'
+    } %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 order-1 order-lg-0">
+                {% include '/partials/blog-sidebar.twig' with {
+                    position: 'start'
+                } %}
+            </div>
+            <div class="col-12 col-lg-8">
+                <div class="block">
+                    <div class="posts-view">
+                        <div class="posts-view__list posts-list posts-list--layout--classic">
+                            <div class="posts-list__body">
+                                {% for post in posts %}
+                                    <div class="posts-list__item">
+                                        {% include '/partials/post-card.twig' with {
+                                            post: post,
+                                            layout: 'grid-lg'
+                                        } only %}
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="posts-view__pagination">
+                            {% include '/partials/pagination.twig' %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:5:"title";s:19:"Latest News Grid lg";s:3:"url";s:20:"/latest-news-grid-lg";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

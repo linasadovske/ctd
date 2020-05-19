@@ -1,0 +1,86 @@
+1589884591a:1:{s:18:"account-orders.htm";a:9:{s:8:"fileName";s:18:"account-orders.htm";s:7:"content";s:1462:"title = "Mano užsakymai"
+url = "/mano-uzsakymai"
+layout = "default"
+is_hidden = 0
+==
+
+{% set current_account_page = 'account-orders.html' %}
+{% extends '/layouts/account.twig' %}
+
+{% block account_body %}
+    <div class="card">
+        <div class="card-header">
+            <h5>OUžsakymo istorija</h5>
+        </div>
+        <div class="card-divider"></div>
+        <div class="card-table">
+            <div class="table-responsive-sm">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Užsakymas</th>
+                        <th>Data</th>
+                        <th>Būsena</th>
+                        <th>Viso</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for order in orders %}
+                        <tr>
+                            <td><a href="account-order-details.html">#{{ order.id }}</a></td>
+                            <td>{{ order.date }}</td>
+                            <td>{{ order.status }}</td>
+                            <td>{{ order.total }}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="card-footer">
+            {% include '/partials/pagination.twig' %}
+        </div>
+    </div>
+
+{% endblock %}
+";s:5:"mtime";i:1589362046;s:6:"markup";s:1367:"{% set current_account_page = 'account-orders.html' %}
+{% extends '/layouts/account.twig' %}
+
+{% block account_body %}
+    <div class="card">
+        <div class="card-header">
+            <h5>OUžsakymo istorija</h5>
+        </div>
+        <div class="card-divider"></div>
+        <div class="card-table">
+            <div class="table-responsive-sm">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Užsakymas</th>
+                        <th>Data</th>
+                        <th>Būsena</th>
+                        <th>Viso</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for order in orders %}
+                        <tr>
+                            <td><a href="account-order-details.html">#{{ order.id }}</a></td>
+                            <td>{{ order.date }}</td>
+                            <td>{{ order.status }}</td>
+                            <td>{{ order.total }}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="card-footer">
+            {% include '/partials/pagination.twig' %}
+        </div>
+    </div>
+
+{% endblock %}";s:4:"code";N;s:5:"title";s:15:"Mano užsakymai";s:3:"url";s:15:"/mano-uzsakymai";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

@@ -1,0 +1,39 @@
+1589884888a:1:{s:16:"footer-menu.yaml";a:7:{s:8:"fileName";s:16:"footer-menu.yaml";s:7:"content";s:885:"name: 'Footer menu'
+items:
+    -
+        title: 'Pirkimo taisyklės'
+        type: cms-page
+        code: ''
+        reference: terms-and-conditions
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Grąžinimo sąlygos'
+        type: cms-page
+        code: ''
+        reference: returns
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Privatumo ir slapukų politika'
+        type: cms-page
+        code: ''
+        reference: privacy
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Dažniausiai užduodami klausimai'
+        type: cms-page
+        code: ''
+        reference: faq
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+";s:5:"mtime";i:1589379715;s:6:"markup";N;s:4:"code";N;s:4:"name";N;s:5:"items";a:0:{}}}

@@ -1,0 +1,75 @@
+title = "Redaguoti adresą"
+url = "/redaguoti-adresa"
+layout = "default"
+is_hidden = 0
+==
+
+{% set current_account_page = 'account-edit-address.html' %}
+{% extends '/layouts/account.twig' %}
+
+{% block account_body %}
+    <div class="card">
+        <div class="card-header">
+            <h5>Redaguoti adresą</h5>
+        </div>
+        <div class="card-divider"></div>
+        <div class="card-body">
+            <div class="row no-gutters">
+                <div class="col-12 col-lg-10 col-xl-8">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="checkout-first-name">Vardas</label>
+                            <input type="text" class="form-control" id="checkout-first-name" placeholder="Vardas">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="checkout-last-name">Pavardė</label>
+                            <input type="text" class="form-control" id="checkout-last-name" placeholder="Pavardė">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="checkout-company-name">Įmonės pavadinimas <span class="text-muted">(Neprivaloma)</span></label>
+                        <input type="text" class="form-control" id="checkout-company-name" placeholder="Įmonės pavadinimas">
+                    </div>
+                    <div class="form-group">
+                        <label for="checkout-country">Šalis</label>
+                        <select id="checkout-country" class="form-control form-control-select2">
+                            <option>Pasirinkite šalį...</option>
+                            <option>Lietuva</option>
+                            <option>Russia</option>
+                            <option>United States</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="checkout-street-address">Adresas</label>
+                        <input type="text" class="form-control" id="checkout-street-address" placeholder="Adresas">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="checkout-city">Miestas</label>
+                            <input type="text" class="form-control" id="checkout-city">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="checkout-postcode">Pašto kodas</label>
+                            <input type="text" class="form-control" id="checkout-postcode">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="checkout-email">El. pašto adresas</label>
+                            <input type="email" class="form-control" id="checkout-email" placeholder="El. pašto adresas">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="checkout-phone">Telefono nr.</label>
+                            <input type="text" class="form-control" id="checkout-phone" placeholder="Telefono nr.">
+                        </div>
+                    </div>
+
+                    <div class="form-group mt-3 mb-0">
+                        <button class="btn btn-primary">Išsaugoti</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

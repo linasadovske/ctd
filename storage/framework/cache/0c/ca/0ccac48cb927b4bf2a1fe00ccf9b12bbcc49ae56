@@ -1,0 +1,140 @@
+1589884591a:1:{s:17:"account-login.htm";a:9:{s:8:"fileName";s:17:"account-login.htm";s:7:"content";s:3910:"title = "Prijungti"
+url = "/prijungti"
+layout = "default"
+is_hidden = 0
+==
+
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Mano paskyra'
+    } %}
+
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column">
+                    <div class="card flex-grow-1 mb-md-0">
+                        <div class="card-body">
+                            <h3 class="card-title">Prisijungti</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label>El. paštas</label>
+                                    <input type="email" class="form-control" placeholder="El. paštas">
+                                </div>
+                                <div class="form-group">
+                                    <label>Slaptažodis</label>
+                                    <input type="password" class="form-control" placeholder="Slaptažodis">
+                                    <small class="form-text text-muted">
+                                        <a href="">Pamiršau slaptažodį</a>
+                                    </small>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-check">
+                                        <span class="form-check-input input-check">
+                                            <span class="input-check__body">
+                                                <input class="input-check__input" type="checkbox" id="login-remember">
+                                                <span class="input-check__box"></span>
+                                                <svg class="input-check__icon" width="9px" height="7px"><use xlink:href="{{ 'assets/images/sprite.svg#check-9x7'|theme }}"></use></svg>
+                                            </span>
+                                        </span>
+                                        <label class="form-check-label" for="login-remember">Prisiminti mane</label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary mt-4">Prijungti</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column mt-4 mt-md-0">
+                    <div class="card flex-grow-1 mb-0">
+                        <div class="card-body">
+                            <h3 class="card-title">Registruotis</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label>El. paštas</label>
+                                    <input type="email" class="form-control" placeholder="El. paštas">
+                                </div>
+                                <div class="form-group">
+                                    <label>Slaptažodis</label>
+                                    <input type="password" class="form-control" placeholder="Slaptažodis">
+                                </div>
+                                <div class="form-group">
+                                    <label>Pakartoti slaptažodį</label>
+                                    <input type="password" class="form-control" placeholder="Pakartoti slaptažodį">
+                                </div>
+                                <button type="submit" class="btn btn-primary mt-4">Registruotis</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+";s:5:"mtime";i:1589370893;s:6:"markup";s:3826:"{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Mano paskyra'
+    } %}
+
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column">
+                    <div class="card flex-grow-1 mb-md-0">
+                        <div class="card-body">
+                            <h3 class="card-title">Prisijungti</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label>El. paštas</label>
+                                    <input type="email" class="form-control" placeholder="El. paštas">
+                                </div>
+                                <div class="form-group">
+                                    <label>Slaptažodis</label>
+                                    <input type="password" class="form-control" placeholder="Slaptažodis">
+                                    <small class="form-text text-muted">
+                                        <a href="">Pamiršau slaptažodį</a>
+                                    </small>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-check">
+                                        <span class="form-check-input input-check">
+                                            <span class="input-check__body">
+                                                <input class="input-check__input" type="checkbox" id="login-remember">
+                                                <span class="input-check__box"></span>
+                                                <svg class="input-check__icon" width="9px" height="7px"><use xlink:href="{{ 'assets/images/sprite.svg#check-9x7'|theme }}"></use></svg>
+                                            </span>
+                                        </span>
+                                        <label class="form-check-label" for="login-remember">Prisiminti mane</label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary mt-4">Prijungti</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column mt-4 mt-md-0">
+                    <div class="card flex-grow-1 mb-0">
+                        <div class="card-body">
+                            <h3 class="card-title">Registruotis</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label>El. paštas</label>
+                                    <input type="email" class="form-control" placeholder="El. paštas">
+                                </div>
+                                <div class="form-group">
+                                    <label>Slaptažodis</label>
+                                    <input type="password" class="form-control" placeholder="Slaptažodis">
+                                </div>
+                                <div class="form-group">
+                                    <label>Pakartoti slaptažodį</label>
+                                    <input type="password" class="form-control" placeholder="Pakartoti slaptažodį">
+                                </div>
+                                <button type="submit" class="btn btn-primary mt-4">Registruotis</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:5:"title";s:9:"Prijungti";s:3:"url";s:10:"/prijungti";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

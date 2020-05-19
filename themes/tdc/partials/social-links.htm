@@ -1,0 +1,29 @@
+<!-- social-links -->
+<div class="social-links footer-newsletter__social-links social-links--shape--circle">
+    <ul class="social-links__list">
+        {% if this.theme.facebook %}
+        <li class="social-links__item">
+            <a
+                    class="social-links__link social-links__link--type--facebook"
+                    href="{{ this.theme.facebook}}"
+                    target="_blank"
+            >
+            <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+        {% endif %}
+        {% if this.theme.instagram %}
+        <li class="social-links__item">
+            <a
+                    class="social-links__link social-links__link--type--instagram"
+                    href="{{ this.theme.instagram}}"
+                    target="_blank"
+            >
+            <i class="fab fa-instagram"></i>
+            </a>
+        </li>
+        {% endif %}
+
+    </ul>
+</div>
+<!-- social-links / end -->

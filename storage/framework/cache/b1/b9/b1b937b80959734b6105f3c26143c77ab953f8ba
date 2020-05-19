@@ -1,0 +1,21 @@
+1589380962a:1:{s:19:"product-sidebar.htm";a:5:{s:8:"fileName";s:19:"product-sidebar.htm";s:7:"content";s:350:"<div class="block block-sidebar">
+    <div class="block-sidebar__item">
+        {% include '/widgets/widget-categories.twig' with {
+            categories: shop_categories,
+            location: 'shop'
+        } only %}
+    </div>
+    <div class="block-sidebar__item">
+        {% include '/widgets/widget-products.twig' %}
+    </div>
+</div>";s:5:"mtime";i:1589367073;s:6:"markup";s:350:"<div class="block block-sidebar">
+    <div class="block-sidebar__item">
+        {% include '/widgets/widget-categories.twig' with {
+            categories: shop_categories,
+            location: 'shop'
+        } only %}
+    </div>
+    <div class="block-sidebar__item">
+        {% include '/widgets/widget-products.twig' %}
+    </div>
+</div>";s:4:"code";N;}}

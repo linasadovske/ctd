@@ -1,0 +1,29 @@
+1589380962a:1:{s:10:"rating.htm";a:5:{s:8:"fileName";s:10:"rating.htm";s:7:"content";s:819:"<div class="rating">
+    <div class="rating__body">
+        {% for i in 1..5 %}
+            <svg class="rating__star {% if rating >= i %}rating__star--active{% endif %}" width="13px" height="12px">
+                <g class="rating__fill"><use xlink:href="{{ 'assets/images/sprite.svg#star-normal'|theme }}"></use></g>
+                <g class="rating__stroke"><use xlink:href="{{ 'assets/images/sprite.svg#star-normal-stroke'|theme }}"></use></g>
+            </svg>
+
+            <div class="rating__star rating__star--only-edge {% if rating >= i %}rating__star--active{% endif %}">
+                <div class="rating__fill"><div class="fake-svg-icon"></div></div>
+                <div class="rating__stroke"><div class="fake-svg-icon"></div></div>
+            </div>
+        {% endfor %}
+    </div>
+</div>";s:5:"mtime";i:1589371715;s:6:"markup";s:819:"<div class="rating">
+    <div class="rating__body">
+        {% for i in 1..5 %}
+            <svg class="rating__star {% if rating >= i %}rating__star--active{% endif %}" width="13px" height="12px">
+                <g class="rating__fill"><use xlink:href="{{ 'assets/images/sprite.svg#star-normal'|theme }}"></use></g>
+                <g class="rating__stroke"><use xlink:href="{{ 'assets/images/sprite.svg#star-normal-stroke'|theme }}"></use></g>
+            </svg>
+
+            <div class="rating__star rating__star--only-edge {% if rating >= i %}rating__star--active{% endif %}">
+                <div class="rating__fill"><div class="fake-svg-icon"></div></div>
+                <div class="rating__stroke"><div class="fake-svg-icon"></div></div>
+            </div>
+        {% endfor %}
+    </div>
+</div>";s:4:"code";N;}}

@@ -1,0 +1,19 @@
+title = "Prekių krepšelis tuščias"
+url = "/cart-empty"
+layout = "default"
+is_hidden = 0
+==
+
+
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Prekių krepšelis'
+    } %}
+
+    <div class="block-empty__body">
+        <div class="block-empty__message">Prekių nėra.</div>
+        <div class="block-empty__actions">
+            <a class="btn btn-primary btn-sm" href="">Tęsti</a>
+        </div>
+    </div>
+{% endblock %}

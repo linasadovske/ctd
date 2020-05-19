@@ -1,0 +1,226 @@
+1589884591a:1:{s:25:"account-order-details.htm";a:9:{s:8:"fileName";s:25:"account-order-details.htm";s:7:"content";s:4922:"title = "Užsakymų istorija"
+url = "/uzsakymu-istorija"
+layout = "default"
+is_hidden = 0
+==
+
+{% set current_account_page = 'account-order-details.html' %}
+{% extends '/layouts/account.twig' %}
+
+{% block account_body %}
+    <div class="card">
+        <div class="order-header">
+            <div class="order-header__actions">
+                <a href="account-orders.html" class="btn btn-xs btn-secondary">Grįžti į sąrašą</a>
+            </div>
+            <h5 class="order-header__title">Užsakymas #3857</h5>
+            <div class="order-header__subtitle">
+                Buvo atliktas <mark class="order-header__date"> 2020 10 19 </mark>
+                ir šiuo metu yra <mark class="order-header__status">ruošiamas</mark>.
+            </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="card-table">
+            <div class="table-responsive-sm">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Prekė</th>
+                        <th>Viso</th>
+                    </tr>
+                    </thead>
+                    <tbody class="card-table__body card-table__body--merge-rows">
+                    <tr>
+                        <td>Electric Planer Brandix KL370090G 300 Watts × 2</td>
+                        <td>$1,398.00</td>
+                    </tr>
+                    <tr>
+                        <td>Undefined Tool IRadix DPS3000SY 2700 watts × 1</td>
+                        <td>$849.00</td>
+                    </tr>
+                    <tr>
+                        <td>Brandix Router Power Tool 2017ERXPK × 3</td>
+                        <td>$3,630.00</td>
+                    </tr>
+                    </tbody>
+                    <tbody class="card-table__body card-table__body--merge-rows">
+                    <tr>
+                        <th>Viso prekės</th>
+                        <td>$5,877.00</td>
+                    </tr>
+                    <tr>
+                        <th>Nuolaidos</th>
+                        <td>$-20.00</td>
+                    </tr>
+                    <tr>
+                        <th>Pristatymas</th>
+                        <td>$25.00</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <th>Iš viso</th>
+                        <td>$5,882.00</td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3 no-gutters mx-n2">
+        <div class="col-sm-6 col-12 px-2">
+            <div class="card address-card address-card--featured">
+                <div class="address-card__body">
+                    <div class="address-card__badge address-card__badge--muted">Pristatymo adresas</div>
+                    <div class="address-card__name">Helena Garcia</div>
+                    <div class="address-card__row">
+                        Random Federation<br>
+                        115302, Moscow<br>
+                        ul. Varshavskaya, 15-2-178
+                    </div>
+                    <div class="address-card__row">
+                        <div class="address-card__row-title">Telefono nr.</div>
+                        <div class="address-card__row-content">38 972 588-42-36</div>
+                    </div>
+                    <div class="address-card__row">
+                        <div class="address-card__row-title">El. paštas</div>
+                        <div class="address-card__row-content">stroyka@example.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-12 px-2 mt-sm-0 mt-3">
+            <div class="card address-card address-card--featured">
+                <div class="address-card__body">
+                    <div class="address-card__badge address-card__badge--muted">Sąskaitos adresas</div>
+                    <div class="address-card__name">Helena Garcia</div>
+                    <div class="address-card__row">
+                        Random Federation<br>
+                        115302, Moscow<br>
+                        ul. Varshavskaya, 15-2-178
+                    </div>
+                    <div class="address-card__row">
+                        <div class="address-card__row-title">Telefono nr.</div>
+                        <div class="address-card__row-content">38 972 588-42-36</div>
+                    </div>
+                    <div class="address-card__row">
+                        <div class="address-card__row-title">El. paštas</div>
+                        <div class="address-card__row-content">stroyka@example.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+";s:5:"mtime";i:1589362026;s:6:"markup";s:4820:"{% set current_account_page = 'account-order-details.html' %}
+{% extends '/layouts/account.twig' %}
+
+{% block account_body %}
+    <div class="card">
+        <div class="order-header">
+            <div class="order-header__actions">
+                <a href="account-orders.html" class="btn btn-xs btn-secondary">Grįžti į sąrašą</a>
+            </div>
+            <h5 class="order-header__title">Užsakymas #3857</h5>
+            <div class="order-header__subtitle">
+                Buvo atliktas <mark class="order-header__date"> 2020 10 19 </mark>
+                ir šiuo metu yra <mark class="order-header__status">ruošiamas</mark>.
+            </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="card-table">
+            <div class="table-responsive-sm">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Prekė</th>
+                        <th>Viso</th>
+                    </tr>
+                    </thead>
+                    <tbody class="card-table__body card-table__body--merge-rows">
+                    <tr>
+                        <td>Electric Planer Brandix KL370090G 300 Watts × 2</td>
+                        <td>$1,398.00</td>
+                    </tr>
+                    <tr>
+                        <td>Undefined Tool IRadix DPS3000SY 2700 watts × 1</td>
+                        <td>$849.00</td>
+                    </tr>
+                    <tr>
+                        <td>Brandix Router Power Tool 2017ERXPK × 3</td>
+                        <td>$3,630.00</td>
+                    </tr>
+                    </tbody>
+                    <tbody class="card-table__body card-table__body--merge-rows">
+                    <tr>
+                        <th>Viso prekės</th>
+                        <td>$5,877.00</td>
+                    </tr>
+                    <tr>
+                        <th>Nuolaidos</th>
+                        <td>$-20.00</td>
+                    </tr>
+                    <tr>
+                        <th>Pristatymas</th>
+                        <td>$25.00</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <th>Iš viso</th>
+                        <td>$5,882.00</td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3 no-gutters mx-n2">
+        <div class="col-sm-6 col-12 px-2">
+            <div class="card address-card address-card--featured">
+                <div class="address-card__body">
+                    <div class="address-card__badge address-card__badge--muted">Pristatymo adresas</div>
+                    <div class="address-card__name">Helena Garcia</div>
+                    <div class="address-card__row">
+                        Random Federation<br>
+                        115302, Moscow<br>
+                        ul. Varshavskaya, 15-2-178
+                    </div>
+                    <div class="address-card__row">
+                        <div class="address-card__row-title">Telefono nr.</div>
+                        <div class="address-card__row-content">38 972 588-42-36</div>
+                    </div>
+                    <div class="address-card__row">
+                        <div class="address-card__row-title">El. paštas</div>
+                        <div class="address-card__row-content">stroyka@example.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-12 px-2 mt-sm-0 mt-3">
+            <div class="card address-card address-card--featured">
+                <div class="address-card__body">
+                    <div class="address-card__badge address-card__badge--muted">Sąskaitos adresas</div>
+                    <div class="address-card__name">Helena Garcia</div>
+                    <div class="address-card__row">
+                        Random Federation<br>
+                        115302, Moscow<br>
+                        ul. Varshavskaya, 15-2-178
+                    </div>
+                    <div class="address-card__row">
+                        <div class="address-card__row-title">Telefono nr.</div>
+                        <div class="address-card__row-content">38 972 588-42-36</div>
+                    </div>
+                    <div class="address-card__row">
+                        <div class="address-card__row-title">El. paštas</div>
+                        <div class="address-card__row-content">stroyka@example.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}";s:4:"code";N;s:5:"title";s:19:"Užsakymų istorija";s:3:"url";s:18:"/uzsakymu-istorija";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

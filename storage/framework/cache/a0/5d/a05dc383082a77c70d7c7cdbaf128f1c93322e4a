@@ -1,0 +1,78 @@
+1589884591a:1:{s:19:"account-profile.htm";a:9:{s:8:"fileName";s:19:"account-profile.htm";s:7:"content";s:1803:"title = "Asmeninė informacija"
+url = "/asmenine-informacija"
+layout = "default"
+is_hidden = 0
+==
+
+{% set current_account_page = 'account-profile.html' %}
+{% extends '/layouts/account.twig' %}
+{% block account_body %}
+    <div class="card">
+        <div class="card-header">
+            <h5>Asmeninė informacija</h5>
+        </div>
+        <div class="card-divider"></div>
+        <div class="card-body">
+            <div class="row no-gutters">
+                <div class="col-12 col-lg-7 col-xl-6">
+                    <div class="form-group">
+                        <label for="profile-first-name">Vardas</label>
+                        <input type="text" class="form-control" id="profile-first-name" placeholder="Vardas">
+                    </div>
+                    <div class="form-group">
+                        <label for="profile-last-name">Pavardė</label>
+                        <input type="text" class="form-control" id="profile-last-name" placeholder="Pavardė">
+                    </div>
+                    <div class="form-group">
+                        <label for="profile-email">El. paštas</label>
+                        <input type="email" class="form-control" id="profile-email" placeholder="El. paštas">
+                    </div>
+                    <div class="form-group">
+                        <label for="profile-phone">Telefono nr.</label>
+                        <input type="text" class="form-control" id="profile-phone" placeholder="Telefono nr.">
+                    </div>
+
+                    <div class="form-group mt-5 mb-0">
+                        <button class="btn btn-primary">Išsaugoti</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+";s:5:"mtime";i:1589362105;s:6:"markup";s:1696:"{% set current_account_page = 'account-profile.html' %}
+{% extends '/layouts/account.twig' %}
+{% block account_body %}
+    <div class="card">
+        <div class="card-header">
+            <h5>Asmeninė informacija</h5>
+        </div>
+        <div class="card-divider"></div>
+        <div class="card-body">
+            <div class="row no-gutters">
+                <div class="col-12 col-lg-7 col-xl-6">
+                    <div class="form-group">
+                        <label for="profile-first-name">Vardas</label>
+                        <input type="text" class="form-control" id="profile-first-name" placeholder="Vardas">
+                    </div>
+                    <div class="form-group">
+                        <label for="profile-last-name">Pavardė</label>
+                        <input type="text" class="form-control" id="profile-last-name" placeholder="Pavardė">
+                    </div>
+                    <div class="form-group">
+                        <label for="profile-email">El. paštas</label>
+                        <input type="email" class="form-control" id="profile-email" placeholder="El. paštas">
+                    </div>
+                    <div class="form-group">
+                        <label for="profile-phone">Telefono nr.</label>
+                        <input type="text" class="form-control" id="profile-phone" placeholder="Telefono nr.">
+                    </div>
+
+                    <div class="form-group mt-5 mb-0">
+                        <button class="btn btn-primary">Išsaugoti</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:5:"title";s:21:"Asmeninė informacija";s:3:"url";s:21:"/asmenine-informacija";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

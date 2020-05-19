@@ -1,0 +1,113 @@
+1589884591a:1:{s:12:"about-us.htm";a:9:{s:8:"fileName";s:12:"about-us.htm";s:7:"content";s:3526:"title = "Apie mus"
+url = "/apie"
+layout = "default"
+is_hidden = 0
+==
+
+{% block site_body %}
+    <div class="block about-us">
+        <div class="about-us__image"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-xl-10">
+                    <div class="about-us__body">
+                        <h1 class="about-us__title">Apie mus</h1>
+                        <div class="about-us__text typography">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacus metus, convallis ut leo nec, tincidunt
+                                eleifend justo. Ut felis orci, hendrerit a pulvinar et, gravida ac lorem. Sed vitae molestie sapien, at
+                                sollicitudin tortor.
+                            </p>
+                            <p>
+                                Duis id volutpat libero, id vestibulum purus.Donec euismod accumsan felis,egestas lobortis velit tempor vitae.
+                                Integer eget velit fermentum, dignissim odio non, bibendum velit.
+                            </p>
+                        </div>
+                        <div class="about-us__team">
+                            <h2 class="about-us__team-title">Komanda</h2>
+                            <div class="about-us__team-subtitle text-muted">Want to work in our friendly team?<br><a href="contact-us.html">Contact us</a> and we will consider your candidacy.</div>
+                            <div class="about-us__teammates teammates">
+                                <div class="owl-carousel">
+                                    <div class="teammates__item teammate">
+                                        <div class="teammate__avatar">
+                                            <img src="images/teammates/teammate-1.jpg" alt="">
+                                        </div>
+                                        <div class="teammate__name">Michael Russo</div>
+                                        <div class="teammate__position text-muted">Chief Executive Officer</div>
+                                    </div>
+                                    <div class="teammates__item teammate">
+                                        <div class="teammate__avatar">
+                                            <img src="images/teammates/teammate-2.jpg" alt="">
+                                        </div>
+                                        <div class="teammate__name">Katherine Miller</div>
+                                        <div class="teammate__position text-muted">Marketing Officer</div>
+                                    </div>
+                                    <div class="teammates__item teammate">
+                                        <div class="teammate__avatar">
+                                            <img src="images/teammates/teammate-3.jpg" alt="">
+                                        </div>
+                                        <div class="teammate__name">Anthony Harris</div>
+                                        <div class="teammate__position text-muted">Finance Director</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:5:"mtime";i:1589361809;s:6:"markup";s:3450:"{% block site_body %}
+    <div class="block about-us">
+        <div class="about-us__image"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-xl-10">
+                    <div class="about-us__body">
+                        <h1 class="about-us__title">Apie mus</h1>
+                        <div class="about-us__text typography">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacus metus, convallis ut leo nec, tincidunt
+                                eleifend justo. Ut felis orci, hendrerit a pulvinar et, gravida ac lorem. Sed vitae molestie sapien, at
+                                sollicitudin tortor.
+                            </p>
+                            <p>
+                                Duis id volutpat libero, id vestibulum purus.Donec euismod accumsan felis,egestas lobortis velit tempor vitae.
+                                Integer eget velit fermentum, dignissim odio non, bibendum velit.
+                            </p>
+                        </div>
+                        <div class="about-us__team">
+                            <h2 class="about-us__team-title">Komanda</h2>
+                            <div class="about-us__team-subtitle text-muted">Want to work in our friendly team?<br><a href="contact-us.html">Contact us</a> and we will consider your candidacy.</div>
+                            <div class="about-us__teammates teammates">
+                                <div class="owl-carousel">
+                                    <div class="teammates__item teammate">
+                                        <div class="teammate__avatar">
+                                            <img src="images/teammates/teammate-1.jpg" alt="">
+                                        </div>
+                                        <div class="teammate__name">Michael Russo</div>
+                                        <div class="teammate__position text-muted">Chief Executive Officer</div>
+                                    </div>
+                                    <div class="teammates__item teammate">
+                                        <div class="teammate__avatar">
+                                            <img src="images/teammates/teammate-2.jpg" alt="">
+                                        </div>
+                                        <div class="teammate__name">Katherine Miller</div>
+                                        <div class="teammate__position text-muted">Marketing Officer</div>
+                                    </div>
+                                    <div class="teammates__item teammate">
+                                        <div class="teammate__avatar">
+                                            <img src="images/teammates/teammate-3.jpg" alt="">
+                                        </div>
+                                        <div class="teammate__name">Anthony Harris</div>
+                                        <div class="teammate__position text-muted">Finance Director</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:5:"title";s:8:"Apie mus";s:3:"url";s:5:"/apie";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

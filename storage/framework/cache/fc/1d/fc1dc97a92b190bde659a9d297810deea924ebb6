@@ -1,0 +1,77 @@
+1589380913a:1:{s:11:"account.htm";a:6:{s:8:"fileName";s:11:"account.htm";s:7:"content";s:1564:"==
+{% extends '/layouts/default.twig' %}
+
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Mano paskyra'
+    } %}
+
+    {% set account_pages = [
+        {label: 'Mano paskyra', url: 'account-dashboard.html'},
+        {label: 'Asmeninė informacija', url: 'account-profile.html'},
+        {label: 'Užsakymų istorija', url: 'account-orders.html'},
+        {label: 'Adresai', url: 'account-addresses.html'},
+        {label: 'Keisti slaptažodį', url: 'account-password.html'},
+        {label: 'Atsijungti', url: 'account-login.html'}
+    ] %}
+
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3 d-flex">
+                    <div class="account-nav flex-grow-1">
+                        <h4 class="account-nav__title">Navigacija</h4>
+                        <ul>
+                            {% for link in account_pages %}
+                                <li class="account-nav__item {% if link.url == current_account_page %} account-nav__item--active {% endif %}">
+                                    <a href="{{ link.url }}">{{ link.label }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9 mt-4 mt-lg-0">
+                    {% block account_body %}{% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+";s:5:"mtime";i:1589361925;s:6:"markup";s:1558:"{% extends '/layouts/default.twig' %}
+
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Mano paskyra'
+    } %}
+
+    {% set account_pages = [
+        {label: 'Mano paskyra', url: 'account-dashboard.html'},
+        {label: 'Asmeninė informacija', url: 'account-profile.html'},
+        {label: 'Užsakymų istorija', url: 'account-orders.html'},
+        {label: 'Adresai', url: 'account-addresses.html'},
+        {label: 'Keisti slaptažodį', url: 'account-password.html'},
+        {label: 'Atsijungti', url: 'account-login.html'}
+    ] %}
+
+    <div class="block">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3 d-flex">
+                    <div class="account-nav flex-grow-1">
+                        <h4 class="account-nav__title">Navigacija</h4>
+                        <ul>
+                            {% for link in account_pages %}
+                                <li class="account-nav__item {% if link.url == current_account_page %} account-nav__item--active {% endif %}">
+                                    <a href="{{ link.url }}">{{ link.label }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9 mt-4 mt-lg-0">
+                    {% block account_body %}{% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

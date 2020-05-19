@@ -1,0 +1,78 @@
+1589884591a:1:{s:13:"blog-list.htm";a:9:{s:8:"fileName";s:13:"blog-list.htm";s:7:"content";s:1555:"title = "Latest News List"
+url = "/latest-news-list"
+layout = "default"
+is_hidden = 0
+==
+
+
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Latest News'
+    } %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <div class="block">
+                    <div class="posts-view">
+                        <div class="posts-view__list posts-list posts-list--layout--list">
+                            <div class="posts-list__body">
+                                {% for post in posts %}
+                                    <div class="posts-list__item">
+                                        {% include '/partials/post-card.twig' with {
+                                            post: post,
+                                            layout: 'list-nl'
+                                        } only %}
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="posts-view__pagination">
+                            {% include '/partials/pagination.twig' %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                {% include '/partials/blog-sidebar.twig' with {
+                    position: 'end'
+                } %}
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:5:"mtime";i:1589364897;s:6:"markup";s:1457:"{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Latest News'
+    } %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <div class="block">
+                    <div class="posts-view">
+                        <div class="posts-view__list posts-list posts-list--layout--list">
+                            <div class="posts-list__body">
+                                {% for post in posts %}
+                                    <div class="posts-list__item">
+                                        {% include '/partials/post-card.twig' with {
+                                            post: post,
+                                            layout: 'list-nl'
+                                        } only %}
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="posts-view__pagination">
+                            {% include '/partials/pagination.twig' %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                {% include '/partials/blog-sidebar.twig' with {
+                    position: 'end'
+                } %}
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:5:"title";s:16:"Latest News List";s:3:"url";s:17:"/latest-news-list";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

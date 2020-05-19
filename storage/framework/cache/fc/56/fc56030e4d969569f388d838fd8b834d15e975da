@@ -1,0 +1,19 @@
+1589884591a:1:{s:13:"quickview.htm";a:5:{s:8:"fileName";s:13:"quickview.htm";s:7:"content";s:340:"<div class="quickview">
+    <button class="quickview__close" type="button">
+        <svg width="20px" height="20px"><use xlink:href="{{ 'assets/images/sprite.svg#cross-20'|theme }}"></use></svg>
+    </button>
+
+    {% include '/partials/product.twig' with {
+        layout: 'quickview',
+        product: products[15]
+    } %}
+</div>";s:5:"mtime";i:1589371330;s:6:"markup";s:340:"<div class="quickview">
+    <button class="quickview__close" type="button">
+        <svg width="20px" height="20px"><use xlink:href="{{ 'assets/images/sprite.svg#cross-20'|theme }}"></use></svg>
+    </button>
+
+    {% include '/partials/product.twig' with {
+        layout: 'quickview',
+        product: products[15]
+    } %}
+</div>";s:4:"code";N;}}

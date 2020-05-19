@@ -1,0 +1,136 @@
+1589884591a:1:{s:23:"blocks/block-finder.htm";a:5:{s:8:"fileName";s:23:"blocks/block-finder.htm";s:7:"content";s:2695:"{#
+// inputs:
+// - layout: string - one of [full, with-departments] (required)
+#}
+
+{% set _body %}
+    <div class="block-finder__body" style="background-image: url('images/finder/left.png');">
+        <div class="block-finder__header">
+            <div class="block-finder__title">Ieškoti pagal Jūsų sunkiąją techniką</div>
+            <div class="block-finder__subtitle">Pas mus rasite tūkstančius dalių ieškodami pagal gamintoją</div>
+        </div>
+
+        <div class="block-finder__form">
+            <div class="block-finder__form-item">
+                <select class="block-finder__select" disabled>
+                    <option value="none">Gamintojas</option>
+                    <option>Audi</option>
+                    <option>BMW</option>
+                    <option>Ferrari</option>
+                    <option>Ford</option>
+                    <option>KIA</option>
+                    <option>Nissan</option>
+                    <option>Tesla</option>
+                    <option>Toyota</option>
+                </select>
+            </div>
+            <div class="block-finder__form-item">
+                <select class="block-finder__select" disabled>
+                    <option value="none">Modelis</option>
+                    <option>Explorer</option>
+                    <option>Focus S</option>
+                    <option>Fusion SE</option>
+                    <option>Mustang</option>
+                </select>
+            </div>
+            <div class="block-finder__form-item">
+                <select class="block-finder__select" disabled>
+                    <option value="none">Kategorija</option>
+                    <option>Gas 1.6L 125 hp AT/L4</option>
+                    <option>Diesel 2.5L 200 hp AT/L5</option>
+                    <option>Diesel 3.0L 250 hp MT/L5</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit" class="block-finder__button btn btn-primary">Ieškoti</button>
+    </div>
+{% endset %}
+
+<!-- .block-finder -->
+<div class="block-finder block-finder--layout--{{ layout }} block">
+    <form>
+        <div class="container">
+            <div class="row">
+                {% if layout == 'full' %}
+                    <div class="col-12">
+                        {{ _body }}
+                    </div>
+                {% else %}
+                    <div class="col-lg-3 d-none d-lg-block"></div>
+                    <div class="col-12 col-lg-9">
+                        {{ _body }}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </form>
+</div>
+<!-- .block-finder / end -->
+";s:5:"mtime";i:1589366074;s:6:"markup";s:2693:"{#
+// inputs:
+// - layout: string - one of [full, with-departments] (required)
+#}
+
+{% set _body %}
+    <div class="block-finder__body" style="background-image: url('images/finder/left.png');">
+        <div class="block-finder__header">
+            <div class="block-finder__title">Ieškoti pagal Jūsų sunkiąją techniką</div>
+            <div class="block-finder__subtitle">Pas mus rasite tūkstančius dalių ieškodami pagal gamintoją</div>
+        </div>
+
+        <div class="block-finder__form">
+            <div class="block-finder__form-item">
+                <select class="block-finder__select" disabled>
+                    <option value="none">Gamintojas</option>
+                    <option>Audi</option>
+                    <option>BMW</option>
+                    <option>Ferrari</option>
+                    <option>Ford</option>
+                    <option>KIA</option>
+                    <option>Nissan</option>
+                    <option>Tesla</option>
+                    <option>Toyota</option>
+                </select>
+            </div>
+            <div class="block-finder__form-item">
+                <select class="block-finder__select" disabled>
+                    <option value="none">Modelis</option>
+                    <option>Explorer</option>
+                    <option>Focus S</option>
+                    <option>Fusion SE</option>
+                    <option>Mustang</option>
+                </select>
+            </div>
+            <div class="block-finder__form-item">
+                <select class="block-finder__select" disabled>
+                    <option value="none">Kategorija</option>
+                    <option>Gas 1.6L 125 hp AT/L4</option>
+                    <option>Diesel 2.5L 200 hp AT/L5</option>
+                    <option>Diesel 3.0L 250 hp MT/L5</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit" class="block-finder__button btn btn-primary">Ieškoti</button>
+    </div>
+{% endset %}
+
+<!-- .block-finder -->
+<div class="block-finder block-finder--layout--{{ layout }} block">
+    <form>
+        <div class="container">
+            <div class="row">
+                {% if layout == 'full' %}
+                    <div class="col-12">
+                        {{ _body }}
+                    </div>
+                {% else %}
+                    <div class="col-lg-3 d-none d-lg-block"></div>
+                    <div class="col-12 col-lg-9">
+                        {{ _body }}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </form>
+</div>
+<!-- .block-finder / end -->";s:4:"code";N;}}

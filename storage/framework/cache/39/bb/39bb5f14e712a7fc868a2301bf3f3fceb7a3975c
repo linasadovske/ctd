@@ -1,0 +1,37 @@
+1589884591a:1:{s:24:"post-without-sidebar.htm";a:9:{s:8:"fileName";s:24:"post-without-sidebar.htm";s:7:"content";s:567:"title = "Straipsnis without sidebar"
+url = "/post-without-sidebar"
+layout = "default"
+is_hidden = 0
+==
+
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Straipsnis',
+        without_title: true
+    } %}
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9 col-xl-8">
+                {% include '/partials/post.twig' with {
+                    layout: 'full'
+                } %}
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:5:"mtime";i:1589365759;s:6:"markup";s:457:"{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Straipsnis',
+        without_title: true
+    } %}
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9 col-xl-8">
+                {% include '/partials/post.twig' with {
+                    layout: 'full'
+                } %}
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:5:"title";s:26:"Straipsnis without sidebar";s:3:"url";s:21:"/post-without-sidebar";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

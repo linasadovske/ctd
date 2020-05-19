@@ -1,0 +1,55 @@
+1589884591a:1:{s:11:"product.htm";a:9:{s:8:"fileName";s:11:"product.htm";s:7:"content";s:727:"title = "Prekė"
+url = "/preke"
+layout = "default"
+is_hidden = 0
+==
+
+{% block site_body %}
+    {% set product = products[15] %}
+
+    {% include '/partials/page-header.twig' with {
+        title: product.name,
+        without_title: true
+    } %}
+
+    <div class="block">
+        <div class="container">
+            {% include '/partials/product.twig' with {
+                product: product,
+                layout: 'standard'
+            } %}
+
+            {% include '/partials/product-tabs.twig' %}
+        </div>
+    </div>
+
+    {% include '/blocks/block-products-carousel.twig' with {
+        'title': 'Susijusios prekės',
+        'rows': 1,
+        'layout': 'grid-5'
+    } %}
+{% endblock %}";s:5:"mtime";i:1589365391;s:6:"markup";s:652:"{% block site_body %}
+    {% set product = products[15] %}
+
+    {% include '/partials/page-header.twig' with {
+        title: product.name,
+        without_title: true
+    } %}
+
+    <div class="block">
+        <div class="container">
+            {% include '/partials/product.twig' with {
+                product: product,
+                layout: 'standard'
+            } %}
+
+            {% include '/partials/product-tabs.twig' %}
+        </div>
+    </div>
+
+    {% include '/blocks/block-products-carousel.twig' with {
+        'title': 'Susijusios prekės',
+        'rows': 1,
+        'layout': 'grid-5'
+    } %}
+{% endblock %}";s:4:"code";N;s:5:"title";s:6:"Prekė";s:3:"url";s:6:"/preke";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

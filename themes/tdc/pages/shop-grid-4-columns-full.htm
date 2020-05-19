@@ -1,0 +1,27 @@
+title = "Shop grid"
+url = "/shop-grid4"
+layout = "default"
+is_hidden = 0
+==
+
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Katalogai'
+    } %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="block">
+                    {% include '/partials/products-view.twig' with {
+                        products: products,
+                        layout: 'grid',
+                        grid: 'grid-4-full',
+                        offcanvas: 'always'
+                    } only %}
+                </div>
+            </div>
+        </div>
+        {% include '/partials/shop-sidebar.twig' with {offcanvas: 'always'} %}
+    </div>
+{% endblock %}

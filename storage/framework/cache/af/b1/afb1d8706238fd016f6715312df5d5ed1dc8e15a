@@ -1,0 +1,55 @@
+1589380962a:1:{s:22:"blocks/block-posts.htm";a:5:{s:8:"fileName";s:22:"blocks/block-posts.htm";s:7:"content";s:992:"{#
+// inputs:
+// - title:          string   - block title (required)
+// - layout:         string   - one of [list, grid-3, grid-4] (required)
+// - posts:          object[] - array of post data objects (required)
+// - mobile_columns: number   - number of columns in mobile devices if layout is a grid (default: 1)
+#}
+
+<!-- .block-posts -->
+<div class="block block-posts" data-layout="{{ layout }}" data-mobile-columns="{{ mobile_columns|default(1) }}">
+    <div class="container">
+        {% include '/partials/block-header.twig' with {
+            title: title,
+            arrows: true
+        } only %}
+
+        <div class="block-posts__slider">
+            <div class="owl-carousel">
+                {% for post in posts %}
+                    {% include '/partials/post-card.twig' with {
+                        post: post
+                    } only %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- .block-posts / end -->";s:5:"mtime";i:1589366078;s:6:"markup";s:992:"{#
+// inputs:
+// - title:          string   - block title (required)
+// - layout:         string   - one of [list, grid-3, grid-4] (required)
+// - posts:          object[] - array of post data objects (required)
+// - mobile_columns: number   - number of columns in mobile devices if layout is a grid (default: 1)
+#}
+
+<!-- .block-posts -->
+<div class="block block-posts" data-layout="{{ layout }}" data-mobile-columns="{{ mobile_columns|default(1) }}">
+    <div class="container">
+        {% include '/partials/block-header.twig' with {
+            title: title,
+            arrows: true
+        } only %}
+
+        <div class="block-posts__slider">
+            <div class="owl-carousel">
+                {% for post in posts %}
+                    {% include '/partials/post-card.twig' with {
+                        post: post
+                    } only %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- .block-posts / end -->";s:4:"code";N;}}

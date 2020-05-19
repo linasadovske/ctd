@@ -1,0 +1,31 @@
+1589884591a:1:{s:14:"cart-empty.htm";a:9:{s:8:"fileName";s:14:"cart-empty.htm";s:7:"content";s:483:"title = "Prekių krepšelis tuščias"
+url = "/cart-empty"
+layout = "default"
+is_hidden = 0
+==
+
+
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Prekių krepšelis'
+    } %}
+
+    <div class="block-empty__body">
+        <div class="block-empty__message">Prekių nėra.</div>
+        <div class="block-empty__actions">
+            <a class="btn btn-primary btn-sm" href="">Tęsti</a>
+        </div>
+    </div>
+{% endblock %}
+";s:5:"mtime";i:1589365918;s:6:"markup";s:377:"{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Prekių krepšelis'
+    } %}
+
+    <div class="block-empty__body">
+        <div class="block-empty__message">Prekių nėra.</div>
+        <div class="block-empty__actions">
+            <a class="btn btn-primary btn-sm" href="">Tęsti</a>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:5:"title";s:28:"Prekių krepšelis tuščias";s:3:"url";s:11:"/cart-empty";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

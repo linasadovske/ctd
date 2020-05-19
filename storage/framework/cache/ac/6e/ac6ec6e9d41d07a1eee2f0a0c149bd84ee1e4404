@@ -1,0 +1,159 @@
+1589884591a:1:{s:14:"contact-us.htm";a:9:{s:8:"fileName";s:14:"contact-us.htm";s:7:"content";s:4523:"title = "Kontaktai"
+url = "/kontaktai"
+layout = "default"
+is_hidden = 0
+==
+
+{% block site_body %}
+
+    <div class="block-map block">
+        <div class="block-map__body">
+            <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8935.808428723887!2d23.307383!3d55.950202!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e5e33a35599317%3A0xd4dca8d7112944cc!2sSodo%20g.%2024%2C%20%C5%A0iauliai%2076178%2C%20Lithuania!5e0!3m2!1sen!2sus!4v1587473554660!5m2!1sen!2sus'
+                    frameborder='0' scrolling='no' marginheight='0' marginwidth='0'></iframe>
+        </div>
+    </div>
+
+    {% include '/partials/page-header.twig' with {
+        title: 'Kontaktai'
+    } %}
+
+    <div class="block">
+        <div class="container">
+            <div class="card mb-0">
+                <div class="card-body contact-us">
+                    <div class="contact-us__container">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 pb-4 pb-lg-0">
+                                <h4 class="contact-us__header card-title">Mūsų adresas</h4>
+
+                                <div class="contact-us__address">
+                                    <p>
+                                        {{ theme.contacts.address }}<br>
+                                        El. paštas: {{ theme.contacts.email }}<br>
+                                        Telefono nr.: {{ theme.contacts.phone }}
+                                    </p>
+
+                                    <p>
+                                        <strong>Darbo laikas</strong><br>
+                                        I - V: 8:00 val. - 17:00 val.<br>
+                                        VI: nedirbame<br>
+                                        VII: nedirbame
+                                    </p>
+
+                                    <p>
+
+                                        <strong>TDC - traktorių dalių centras</strong><br>
+                                        Prekiaujame naujomis ir naudotomis dalimis įvairiai technikai: traktoriams, javų kombainams, teleskopiniams krautuvams, ekskavatoriams, buldozeriams ir kitai žemės ūkio, miško, statybinei ir industrinei technikai. Prekiaujame atsarginėmis detalėmis. JCB, Massey Ferguson, New Holland, CASE – IH, Fiat, Ford, Fendt, John Deere, Deutz-Fahr, Claas, Valtra – Valmet, CATERPILLAR, Manitou Kėbulo dalys, važiuoklės dalys, pavarų dėžės dalys ir kt.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6">
+                                <h4 class="contact-us__header card-title">Susiekite su mumis</h4>
+
+                                <form>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="form-name">Vardas</label>
+                                            <input type="text" id="form-name" class="form-control" placeholder="Vardas">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="form-email">El. paštas</label>
+                                            <input type="email" id="form-email" class="form-control" placeholder="El. paštas">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="form-subject">Tema</label>
+                                        <input type="text" id="form-subject" class="form-control" placeholder="Tema">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="form-message">Žinutė</label>
+                                        <textarea id="form-message" class="form-control" rows="4"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Siųsti</button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:5:"mtime";i:1589365864;s:6:"markup";s:4441:"{% block site_body %}
+
+    <div class="block-map block">
+        <div class="block-map__body">
+            <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8935.808428723887!2d23.307383!3d55.950202!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e5e33a35599317%3A0xd4dca8d7112944cc!2sSodo%20g.%2024%2C%20%C5%A0iauliai%2076178%2C%20Lithuania!5e0!3m2!1sen!2sus!4v1587473554660!5m2!1sen!2sus'
+                    frameborder='0' scrolling='no' marginheight='0' marginwidth='0'></iframe>
+        </div>
+    </div>
+
+    {% include '/partials/page-header.twig' with {
+        title: 'Kontaktai'
+    } %}
+
+    <div class="block">
+        <div class="container">
+            <div class="card mb-0">
+                <div class="card-body contact-us">
+                    <div class="contact-us__container">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 pb-4 pb-lg-0">
+                                <h4 class="contact-us__header card-title">Mūsų adresas</h4>
+
+                                <div class="contact-us__address">
+                                    <p>
+                                        {{ theme.contacts.address }}<br>
+                                        El. paštas: {{ theme.contacts.email }}<br>
+                                        Telefono nr.: {{ theme.contacts.phone }}
+                                    </p>
+
+                                    <p>
+                                        <strong>Darbo laikas</strong><br>
+                                        I - V: 8:00 val. - 17:00 val.<br>
+                                        VI: nedirbame<br>
+                                        VII: nedirbame
+                                    </p>
+
+                                    <p>
+
+                                        <strong>TDC - traktorių dalių centras</strong><br>
+                                        Prekiaujame naujomis ir naudotomis dalimis įvairiai technikai: traktoriams, javų kombainams, teleskopiniams krautuvams, ekskavatoriams, buldozeriams ir kitai žemės ūkio, miško, statybinei ir industrinei technikai. Prekiaujame atsarginėmis detalėmis. JCB, Massey Ferguson, New Holland, CASE – IH, Fiat, Ford, Fendt, John Deere, Deutz-Fahr, Claas, Valtra – Valmet, CATERPILLAR, Manitou Kėbulo dalys, važiuoklės dalys, pavarų dėžės dalys ir kt.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6">
+                                <h4 class="contact-us__header card-title">Susiekite su mumis</h4>
+
+                                <form>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="form-name">Vardas</label>
+                                            <input type="text" id="form-name" class="form-control" placeholder="Vardas">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="form-email">El. paštas</label>
+                                            <input type="email" id="form-email" class="form-control" placeholder="El. paštas">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="form-subject">Tema</label>
+                                        <input type="text" id="form-subject" class="form-control" placeholder="Tema">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="form-message">Žinutė</label>
+                                        <textarea id="form-message" class="form-control" rows="4"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Siųsti</button>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:5:"title";s:9:"Kontaktai";s:3:"url";s:10:"/kontaktai";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

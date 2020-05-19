@@ -1,0 +1,69 @@
+1589884591a:1:{s:7:"404.htm";a:9:{s:8:"fileName";s:7:"404.htm";s:7:"content";s:1285:"title = "404"
+url = "/404"
+layout = "default"
+is_hidden = 0
+==
+
+{% block site_body %}
+    <div class="block">
+        <div class="container">
+            <div class="not-found">
+                <div class="not-found__404">
+                    Klaida 404
+                </div>
+
+                <div class="not-found__content">
+                    <h1 class="not-found__title">Puslapis nerastas</h1>
+
+                    <p class="not-found__text">
+                        Panašu, kad negalime rasti ieškomo puslapio. <br>
+                        Pabandykite naudoti paiešką.
+                    </p>
+
+                    <form class="not-found__search">
+                        <input type="text" class="not-found__search-input form-control" placeholder="Paieška...">
+                        <button type="submit" class="not-found__search-button btn btn-primary">Ieškoti</button>
+                    </form>
+
+                    <p class="not-found__text">
+                        Arba grįžkite į pagrindinį puslapį.
+                    </p>
+
+                    <a class="btn btn-secondary btn-sm" href="index.html">Grįžti</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}";s:5:"mtime";i:1589361813;s:6:"markup";s:1215:"{% block site_body %}
+    <div class="block">
+        <div class="container">
+            <div class="not-found">
+                <div class="not-found__404">
+                    Klaida 404
+                </div>
+
+                <div class="not-found__content">
+                    <h1 class="not-found__title">Puslapis nerastas</h1>
+
+                    <p class="not-found__text">
+                        Panašu, kad negalime rasti ieškomo puslapio. <br>
+                        Pabandykite naudoti paiešką.
+                    </p>
+
+                    <form class="not-found__search">
+                        <input type="text" class="not-found__search-input form-control" placeholder="Paieška...">
+                        <button type="submit" class="not-found__search-button btn btn-primary">Ieškoti</button>
+                    </form>
+
+                    <p class="not-found__text">
+                        Arba grįžkite į pagrindinį puslapį.
+                    </p>
+
+                    <a class="btn btn-secondary btn-sm" href="index.html">Grįžti</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}";s:4:"code";N;s:5:"title";s:3:"404";s:3:"url";s:4:"/404";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

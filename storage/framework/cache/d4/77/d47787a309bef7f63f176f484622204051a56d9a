@@ -1,0 +1,82 @@
+1589884888a:1:{s:23:"header/account-menu.htm";a:5:{s:8:"fileName";s:23:"header/account-menu.htm";s:7:"content";s:2116:"<div class="account-menu">
+    <form class="account-menu__form">
+        <div class="account-menu__form-title">Prisijungti</div>
+        <div class="form-group">
+            <label for="header-signin-email" class="sr-only">El. paštas</label>
+            <input id="header-signin-email" type="email" class="form-control form-control-sm" placeholder="El. paštas">
+        </div>
+        <div class="form-group">
+            <label for="header-signin-password" class="sr-only">Slaptažodis</label>
+            <div class="account-menu__form-forgot">
+                <input id="header-signin-password" type="password" class="form-control form-control-sm" placeholder="Slaptažodis">
+                <a href="" class="account-menu__form-forgot-link">Pamiršote slaptažodį?</a>
+            </div>
+        </div>
+        <div class="form-group account-menu__form-button">
+            <button type="submit" class="btn btn-primary btn-sm">Prisijungti</button>
+        </div>
+        <div class="account-menu__form-link"><a href="account-login.html">Registruotis</a></div>
+    </form>
+    <div class="account-menu__divider"></div>
+    <a href="account-dashboard.html" class="account-menu__user">
+        <div class="account-menu__user-avatar">
+            <img src="{{ 'assets/images/avatars/avatar-3.jpg'|theme }}" alt="">
+        </div>
+        <div class="account-menu__user-info">
+            <div class="account-menu__user-name">Helena Garcia</div>
+            <div class="account-menu__user-email">stroyka@example.com</div>
+        </div>
+    </a>
+    <div class="account-menu__divider"></div>
+    <ul class="account-menu__links">
+        <li><a href="account-profile.html">Asmeninė informacija</a></li>
+        <li><a href="account-orders.html">Užsakymų istorija</a></li>
+        <li><a href="account-addresses.html">Adresai</a></li>
+        <li><a href="account-password.html">Slaptažodis</a></li>
+    </ul>
+    <div class="account-menu__divider"></div>
+    <ul class="account-menu__links">
+        <li><a href="account-login.html">Atsijungti</a></li>
+    </ul>
+</div>
+";s:5:"mtime";i:1589370801;s:6:"markup";s:2114:"<div class="account-menu">
+    <form class="account-menu__form">
+        <div class="account-menu__form-title">Prisijungti</div>
+        <div class="form-group">
+            <label for="header-signin-email" class="sr-only">El. paštas</label>
+            <input id="header-signin-email" type="email" class="form-control form-control-sm" placeholder="El. paštas">
+        </div>
+        <div class="form-group">
+            <label for="header-signin-password" class="sr-only">Slaptažodis</label>
+            <div class="account-menu__form-forgot">
+                <input id="header-signin-password" type="password" class="form-control form-control-sm" placeholder="Slaptažodis">
+                <a href="" class="account-menu__form-forgot-link">Pamiršote slaptažodį?</a>
+            </div>
+        </div>
+        <div class="form-group account-menu__form-button">
+            <button type="submit" class="btn btn-primary btn-sm">Prisijungti</button>
+        </div>
+        <div class="account-menu__form-link"><a href="account-login.html">Registruotis</a></div>
+    </form>
+    <div class="account-menu__divider"></div>
+    <a href="account-dashboard.html" class="account-menu__user">
+        <div class="account-menu__user-avatar">
+            <img src="{{ 'assets/images/avatars/avatar-3.jpg'|theme }}" alt="">
+        </div>
+        <div class="account-menu__user-info">
+            <div class="account-menu__user-name">Helena Garcia</div>
+            <div class="account-menu__user-email">stroyka@example.com</div>
+        </div>
+    </a>
+    <div class="account-menu__divider"></div>
+    <ul class="account-menu__links">
+        <li><a href="account-profile.html">Asmeninė informacija</a></li>
+        <li><a href="account-orders.html">Užsakymų istorija</a></li>
+        <li><a href="account-addresses.html">Adresai</a></li>
+        <li><a href="account-password.html">Slaptažodis</a></li>
+    </ul>
+    <div class="account-menu__divider"></div>
+    <ul class="account-menu__links">
+        <li><a href="account-login.html">Atsijungti</a></li>
+    </ul>
+</div>";s:4:"code";N;}}

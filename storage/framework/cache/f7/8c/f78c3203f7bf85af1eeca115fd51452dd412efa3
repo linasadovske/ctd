@@ -1,0 +1,57 @@
+1589381476a:1:{s:15:"page-header.htm";a:6:{s:8:"fileName";s:15:"page-header.htm";s:7:"content";s:1329:"[viewBag]
+==
+<div class="page-header">
+    <div class="page-header__container container">
+        <div class="page-header__breadcrumb">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">Pagrindinis puslapis</a>
+                        <svg class="breadcrumb-arrow" width="6px" height="9px">
+                            <use xlink:href="{{ 'assets/images/sprite.svg#arrow-rounded-right-6x9'|theme }}"></use>
+                        </svg>
+                    </li>
+                    <li class="breadcrumb-item"> {# if product #}
+                        <a href="">Kategorija</a>
+                        <svg class="breadcrumb-arrow" width="6px" height="9px">
+                            <use xlink:href="{{ 'assets/images/sprite.svg#arrow-rounded-right-6x9'|theme }}"></use>
+                        </svg>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">{{ this.page.title }}</li>
+                </ol>
+            </nav>
+        </div>
+        {% if not without_title %}
+            <div class="page-header__title">
+                <h1>{{ this.page.title }}</h1>
+            </div>
+        {% endif %}
+    </div>
+</div>";s:5:"mtime";i:1589380243;s:6:"markup";s:1314:"<div class="page-header">
+    <div class="page-header__container container">
+        <div class="page-header__breadcrumb">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="index.html">Pagrindinis puslapis</a>
+                        <svg class="breadcrumb-arrow" width="6px" height="9px">
+                            <use xlink:href="{{ 'assets/images/sprite.svg#arrow-rounded-right-6x9'|theme }}"></use>
+                        </svg>
+                    </li>
+                    <li class="breadcrumb-item"> {# if product #}
+                        <a href="">Kategorija</a>
+                        <svg class="breadcrumb-arrow" width="6px" height="9px">
+                            <use xlink:href="{{ 'assets/images/sprite.svg#arrow-rounded-right-6x9'|theme }}"></use>
+                        </svg>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">{{ this.page.title }}</li>
+                </ol>
+            </nav>
+        </div>
+        {% if not without_title %}
+            <div class="page-header__title">
+                <h1>{{ this.page.title }}</h1>
+            </div>
+        {% endif %}
+    </div>
+</div>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

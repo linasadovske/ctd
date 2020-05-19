@@ -1,0 +1,51 @@
+1589884591a:1:{s:22:"shop-right-sidebar.htm";a:9:{s:8:"fileName";s:22:"shop-right-sidebar.htm";s:7:"content";s:867:"title = "Screwdrivers"
+url = "/screwdrivers"
+layout = "default"
+is_hidden = 0
+==
+
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Screwdrivers'
+    } %}
+
+    <div class="container">
+        <div class="shop-layout shop-layout--sidebar--end">
+            <div class="shop-layout__content">
+                <div class="block">
+                    {% include '/partials/products-view.twig' with {
+                        products: products,
+                        layout: 'grid',
+                        grid: 'grid-3-sidebar',
+                        limit: 15
+                    } only %}
+                </div>
+            </div>
+            <div class="shop-layout__sidebar">
+                {% include '/partials/shop-sidebar.twig' %}
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:5:"mtime";i:1589365316;s:6:"markup";s:779:"{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Screwdrivers'
+    } %}
+
+    <div class="container">
+        <div class="shop-layout shop-layout--sidebar--end">
+            <div class="shop-layout__content">
+                <div class="block">
+                    {% include '/partials/products-view.twig' with {
+                        products: products,
+                        layout: 'grid',
+                        grid: 'grid-3-sidebar',
+                        limit: 15
+                    } only %}
+                </div>
+            </div>
+            <div class="shop-layout__sidebar">
+                {% include '/partials/shop-sidebar.twig' %}
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:5:"title";s:12:"Screwdrivers";s:3:"url";s:13:"/screwdrivers";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

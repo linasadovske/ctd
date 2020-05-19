@@ -1,0 +1,92 @@
+1589380962a:1:{s:22:"header/departments.htm";a:5:{s:8:"fileName";s:22:"header/departments.htm";s:7:"content";s:2567:"<!-- .departments -->
+<div class="departments {% if departments_fixed %} departments--open departments--fixed {% endif %}" data-departments-fixed-by="{{ departments_fixed_by }}">
+    <div class="departments__body">
+        <div class="departments__links-wrapper">
+            <div class="departments__submenus-container"></div>
+            <ul class="departments__links">
+                {# {% for department in departments %}
+                    <li class="departments__item">
+                        <a class="departments__item-link" href="{{ department.link }}">
+                            {{ department.title }}
+                            {% if department.submenu %}
+                                <svg class="departments__item-arrow" width="6px" height="9px"><use xlink:href="{{ 'assets/images/sprite.svg#arrow-rounded-right-6x9'|theme }}"></use></svg>
+                            {% endif %}
+                        </a>
+                        {% if department.submenu and department.submenu.type == 'megamenu' %}
+                            <div class="departments__submenu departments__submenu--type--megamenu departments__submenu--size--{{ department.submenu.menu.size }}">
+                                {% include '/header/megamenu.twig' with {
+                                    megamenu: department.submenu.menu,
+                                    layout_departments: true
+                                } %}
+                            </div>
+                        {% endif %}
+                        {% if department.submenu and department.submenu.type == 'menu' %}
+                            <div class="departments__submenu departments__submenu--type--menu">
+                                {% include '/header/menu.twig' with {
+                                    menu_links: department.submenu.menu
+                                } %}
+                            </div>
+                        {% endif %}
+                    </li>
+                {% endfor %} #}
+            </ul>
+        </div>
+    </div>
+
+    <button class="departments__button">
+        <svg class="departments__button-icon" width="18px" height="14px">
+            <use xlink:href="{{ 'assets/images/sprite.svg#menu-18x14'|theme }}"></use>
+        </svg>
+        Prekių kategorijos
+        <svg class="departments__button-arrow" width="9px" height="6px">
+            <use xlink:href="{{ 'assets/images/sprite.svg#arrow-rounded-down-9x6'|theme }}"></use>
+        </svg>
+    </button>
+</div>
+<!-- .departments / end -->
+";s:5:"mtime";i:1589371227;s:6:"markup";s:2565:"<!-- .departments -->
+<div class="departments {% if departments_fixed %} departments--open departments--fixed {% endif %}" data-departments-fixed-by="{{ departments_fixed_by }}">
+    <div class="departments__body">
+        <div class="departments__links-wrapper">
+            <div class="departments__submenus-container"></div>
+            <ul class="departments__links">
+                {# {% for department in departments %}
+                    <li class="departments__item">
+                        <a class="departments__item-link" href="{{ department.link }}">
+                            {{ department.title }}
+                            {% if department.submenu %}
+                                <svg class="departments__item-arrow" width="6px" height="9px"><use xlink:href="{{ 'assets/images/sprite.svg#arrow-rounded-right-6x9'|theme }}"></use></svg>
+                            {% endif %}
+                        </a>
+                        {% if department.submenu and department.submenu.type == 'megamenu' %}
+                            <div class="departments__submenu departments__submenu--type--megamenu departments__submenu--size--{{ department.submenu.menu.size }}">
+                                {% include '/header/megamenu.twig' with {
+                                    megamenu: department.submenu.menu,
+                                    layout_departments: true
+                                } %}
+                            </div>
+                        {% endif %}
+                        {% if department.submenu and department.submenu.type == 'menu' %}
+                            <div class="departments__submenu departments__submenu--type--menu">
+                                {% include '/header/menu.twig' with {
+                                    menu_links: department.submenu.menu
+                                } %}
+                            </div>
+                        {% endif %}
+                    </li>
+                {% endfor %} #}
+            </ul>
+        </div>
+    </div>
+
+    <button class="departments__button">
+        <svg class="departments__button-icon" width="18px" height="14px">
+            <use xlink:href="{{ 'assets/images/sprite.svg#menu-18x14'|theme }}"></use>
+        </svg>
+        Prekių kategorijos
+        <svg class="departments__button-arrow" width="9px" height="6px">
+            <use xlink:href="{{ 'assets/images/sprite.svg#arrow-rounded-down-9x6'|theme }}"></use>
+        </svg>
+    </button>
+</div>
+<!-- .departments / end -->";s:4:"code";N;}}

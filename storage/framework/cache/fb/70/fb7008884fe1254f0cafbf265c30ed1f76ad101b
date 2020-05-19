@@ -1,0 +1,37 @@
+1589884591a:1:{s:18:"offcanvas-cart.htm";a:9:{s:8:"fileName";s:18:"offcanvas-cart.htm";s:7:"content";s:654:"title = "offcanvas cart"
+url = "/offcanvas-cart"
+layout = "default"
+is_hidden = 0
+==
+{% set header_layout = 'default' %}
+{% set cart_style = 'offcanvas' %}
+{% extends '/layouts/default.twig' %}
+
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Offcanvas Cart'
+    } %}
+
+    <div class="block-empty__body">
+        <div class="block-empty__message">Click on the button to open the offcanvas cart!</div>
+        <div class="block-empty__actions">
+            <a class="btn btn-primary btn-sm" href="#" data-open="offcanvas-cart">Atidaryti krepšelį</a>
+        </div>
+    </div>
+{% endblock %}
+";s:5:"mtime";i:1589365812;s:6:"markup";s:562:"{% set header_layout = 'default' %}
+{% set cart_style = 'offcanvas' %}
+{% extends '/layouts/default.twig' %}
+
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Offcanvas Cart'
+    } %}
+
+    <div class="block-empty__body">
+        <div class="block-empty__message">Click on the button to open the offcanvas cart!</div>
+        <div class="block-empty__actions">
+            <a class="btn btn-primary btn-sm" href="#" data-open="offcanvas-cart">Atidaryti krepšelį</a>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:5:"title";s:14:"offcanvas cart";s:3:"url";s:15:"/offcanvas-cart";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

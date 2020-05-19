@@ -1,0 +1,23 @@
+1589380962a:1:{s:26:"widgets/widget-aboutus.htm";a:5:{s:8:"fileName";s:26:"widgets/widget-aboutus.htm";s:7:"content";s:484:"<div class="widget-aboutus widget">
+    <h4 class="widget__title">About Blog</h4>
+    <div class="widget-aboutus__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, erat in malesuada aliquam, est erat faucibus purus,
+        eget viverra nulla sem vitae neque. Quisque id sodales libero.
+    </div>
+
+    {% include '/partials/social-links.twig' with {
+        classes: 'widget-aboutus__socials',
+        shape: 'rounded',
+    } %}
+</div>";s:5:"mtime";i:1589366173;s:6:"markup";s:484:"<div class="widget-aboutus widget">
+    <h4 class="widget__title">About Blog</h4>
+    <div class="widget-aboutus__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, erat in malesuada aliquam, est erat faucibus purus,
+        eget viverra nulla sem vitae neque. Quisque id sodales libero.
+    </div>
+
+    {% include '/partials/social-links.twig' with {
+        classes: 'widget-aboutus__socials',
+        shape: 'rounded',
+    } %}
+</div>";s:4:"code";N;}}

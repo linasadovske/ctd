@@ -1,0 +1,39 @@
+1589380962a:1:{s:23:"blocks/block-brands.htm";a:5:{s:8:"fileName";s:23:"blocks/block-brands.htm";s:7:"content";s:591:"{#
+// inputs:
+// - brands: object[] - array of brand data objects (required)
+#}
+
+<!-- .block-brands -->
+<div class="block block-brands">
+    <div class="container">
+        <div class="block-brands__slider">
+            <div class="owl-carousel">
+                {% for brand in brands %}
+                    <div class="block-brands__item">
+                        <a href="" title=""><img src="{{ brand.image }}" alt="" title=""></a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- .block-brands / end -->";s:5:"mtime";i:1589366055;s:6:"markup";s:591:"{#
+// inputs:
+// - brands: object[] - array of brand data objects (required)
+#}
+
+<!-- .block-brands -->
+<div class="block block-brands">
+    <div class="container">
+        <div class="block-brands__slider">
+            <div class="owl-carousel">
+                {% for brand in brands %}
+                    <div class="block-brands__item">
+                        <a href="" title=""><img src="{{ brand.image }}" alt="" title=""></a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- .block-brands / end -->";s:4:"code";N;}}

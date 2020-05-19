@@ -1,0 +1,96 @@
+1589884888a:1:{s:17:"footer/footer.htm";a:5:{s:8:"fileName";s:17:"footer/footer.htm";s:7:"content";s:1951:"<div class="site-footer">
+    <div class="container">
+        <div class="site-footer__widgets">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    {% partial 'footer/contacts' %} 
+                    
+                </div>
+                <div class="col-12 col-md-3 col-lg-4">
+                    {# {% include '/footer/links.twig' with {
+                        title: 'Informacija',
+                        links: [
+                            {title: 'Pirkimo taisyklės', url: 'terms-and-conditions.html'},
+                            {title: 'Grąžinimo sąlygos', url: 'returns.html'},
+                            {title: 'Privatumo ir slapukų politika', url: 'privacy.html'},
+                            {title: 'D.U.K.', url: 'faq.html'}
+                        ]
+                    } %} #}
+                    {% partial 'footer/links' title='Informacija' %} 
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    {% partial 'footer/newsletter' %} 
+                </div>
+            </div>
+        </div>
+
+        <div class="site-footer__bottom">
+            <div class="site-footer__copyright">
+
+                Sprendimas: <a href="{{ this.theme.config.homepage }}" target="_blank" title="{{ this.theme.config.author }}">{{ this.theme.config.author }}</a>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="totop">
+        <div class="totop__body">
+            <div class="totop__start"></div>
+            <div class="totop__container container"></div>
+            <div class="totop__end">
+                <button type="button" class="totop__button">
+                    <svg width="13px" height="8px"><use xlink:href="{{ 'assets/images/sprite.svg#arrow-rounded-up-13x8'|theme }}"></use></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+";s:5:"mtime";i:1589378483;s:6:"markup";s:1949:"<div class="site-footer">
+    <div class="container">
+        <div class="site-footer__widgets">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    {% partial 'footer/contacts' %} 
+                    
+                </div>
+                <div class="col-12 col-md-3 col-lg-4">
+                    {# {% include '/footer/links.twig' with {
+                        title: 'Informacija',
+                        links: [
+                            {title: 'Pirkimo taisyklės', url: 'terms-and-conditions.html'},
+                            {title: 'Grąžinimo sąlygos', url: 'returns.html'},
+                            {title: 'Privatumo ir slapukų politika', url: 'privacy.html'},
+                            {title: 'D.U.K.', url: 'faq.html'}
+                        ]
+                    } %} #}
+                    {% partial 'footer/links' title='Informacija' %} 
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    {% partial 'footer/newsletter' %} 
+                </div>
+            </div>
+        </div>
+
+        <div class="site-footer__bottom">
+            <div class="site-footer__copyright">
+
+                Sprendimas: <a href="{{ this.theme.config.homepage }}" target="_blank" title="{{ this.theme.config.author }}">{{ this.theme.config.author }}</a>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="totop">
+        <div class="totop__body">
+            <div class="totop__start"></div>
+            <div class="totop__container container"></div>
+            <div class="totop__end">
+                <button type="button" class="totop__button">
+                    <svg width="13px" height="8px"><use xlink:href="{{ 'assets/images/sprite.svg#arrow-rounded-up-13x8'|theme }}"></use></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>";s:4:"code";N;}}

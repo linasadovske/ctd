@@ -1,0 +1,32 @@
+name: TDC
+description: 'Developed by Adisoft'
+author: 'Adisoft'
+homepage: https://adisoft.lt/
+code: ''
+form:
+    fields:
+        site_logo:
+            label: Site Logo
+            comment: The website logo as it should appear on the front-end
+            type: fileupload
+            mode: image
+            imageHeight: 32
+            imageWidth: 443
+        phone:
+            label: Phone
+            type: text
+        email:
+            label: Email
+            type: text
+        address:
+            label: Address
+            type: text
+        hours:
+            label: Hours
+            type: text
+        facebook:
+            label: facebook
+            type: text
+        instagram:
+            label: instagram
+            type: text

@@ -1,0 +1,56 @@
+1589884888a:1:{s:20:"header/nav-links.htm";a:5:{s:8:"fileName";s:20:"header/nav-links.htm";s:7:"content";s:1397:"<ul class="nav-links__list">
+    {% for link in nav_links %}
+        <li class="nav-links__item {% if link.submenu %} nav-links__item--has-submenu {% endif %}">
+            <a class="nav-links__item-link" href="{{ link.url }}">
+                <div class="nav-links__item-body">
+                    {{ link.title }}
+                    {% if link.submenu %}
+                        <svg class="nav-links__item-arrow" width="9px" height="6px"><use xlink:href="{{ 'assets/images/sprite.svg#arrow-rounded-down-9x6'|theme }}"></use></svg>
+                    {% endif %}
+                </div>
+            </a>
+            {% if link.submenu and link.submenu.type == 'menu' %}
+                <div class="nav-links__submenu nav-links__submenu--type--menu">
+                    {% include '/header/menu.twig' with {
+                        menu_links: link.submenu.menu
+                    } %}
+                </div>
+            {% endif %}
+            {% if link.submenu and link.submenu.type == 'megamenu' %}
+                <div class="nav-links__submenu nav-links__submenu--type--megamenu nav-links__submenu--size--{{ link.submenu.menu.size }}">
+                    {% include '/header/megamenu.twig' with {
+                        megamenu: link.submenu.menu
+                    } %}
+                </div>
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
+";s:5:"mtime";i:1589371692;s:6:"markup";s:1395:"<ul class="nav-links__list">
+    {% for link in nav_links %}
+        <li class="nav-links__item {% if link.submenu %} nav-links__item--has-submenu {% endif %}">
+            <a class="nav-links__item-link" href="{{ link.url }}">
+                <div class="nav-links__item-body">
+                    {{ link.title }}
+                    {% if link.submenu %}
+                        <svg class="nav-links__item-arrow" width="9px" height="6px"><use xlink:href="{{ 'assets/images/sprite.svg#arrow-rounded-down-9x6'|theme }}"></use></svg>
+                    {% endif %}
+                </div>
+            </a>
+            {% if link.submenu and link.submenu.type == 'menu' %}
+                <div class="nav-links__submenu nav-links__submenu--type--menu">
+                    {% include '/header/menu.twig' with {
+                        menu_links: link.submenu.menu
+                    } %}
+                </div>
+            {% endif %}
+            {% if link.submenu and link.submenu.type == 'megamenu' %}
+                <div class="nav-links__submenu nav-links__submenu--type--megamenu nav-links__submenu--size--{{ link.submenu.menu.size }}">
+                    {% include '/header/megamenu.twig' with {
+                        megamenu: link.submenu.menu
+                    } %}
+                </div>
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>";s:4:"code";N;}}

@@ -1,0 +1,78 @@
+1589884591a:1:{s:15:"track-order.htm";a:9:{s:8:"fileName";s:15:"track-order.htm";s:7:"content";s:1927:"title = "Sekti užsakymą"
+url = "/sekti-uzsakyma"
+layout = "default"
+is_hidden = 0
+==
+{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Sekti užsakymą',
+        without_title: true
+    } %}
+
+    <div class="block">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5 col-lg-6 col-md-8">
+                    <div class="card flex-grow-1 mb-0 mt-5">
+                        <div class="card-body">
+                            <div class="card-title text-center"><h1>Sekti užsakymą</h1></div>
+                            <p class="mb-4 pt-2">
+                                Vestibulum sem odio, ullamcorper a imperdiet tincidunt sed magna felis, consequat a erat ut,
+                                rutrum finibus odio.
+                            </p>
+                            <form>
+                                <div class="form-group">
+                                    <label for="track-order-id">Užsakymo ID</label>
+                                    <input id="track-order-id" type="text" class="form-control" placeholder="Užsakymo ID">
+                                </div>
+                                <div class="form-group">
+                                    <label for="track-email">El. paštas</label>
+                                    <input id="track-email" type="email" class="form-control" placeholder="El. paštas">
+                                </div>
+                                <div class="pt-3">
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block">Paieška</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:5:"mtime";i:1589365286;s:6:"markup";s:1835:"{% block site_body %}
+    {% include '/partials/page-header.twig' with {
+        title: 'Sekti užsakymą',
+        without_title: true
+    } %}
+
+    <div class="block">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-5 col-lg-6 col-md-8">
+                    <div class="card flex-grow-1 mb-0 mt-5">
+                        <div class="card-body">
+                            <div class="card-title text-center"><h1>Sekti užsakymą</h1></div>
+                            <p class="mb-4 pt-2">
+                                Vestibulum sem odio, ullamcorper a imperdiet tincidunt sed magna felis, consequat a erat ut,
+                                rutrum finibus odio.
+                            </p>
+                            <form>
+                                <div class="form-group">
+                                    <label for="track-order-id">Užsakymo ID</label>
+                                    <input id="track-order-id" type="text" class="form-control" placeholder="Užsakymo ID">
+                                </div>
+                                <div class="form-group">
+                                    <label for="track-email">El. paštas</label>
+                                    <input id="track-email" type="email" class="form-control" placeholder="El. paštas">
+                                </div>
+                                <div class="pt-3">
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block">Paieška</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:5:"title";s:16:"Sekti užsakymą";s:3:"url";s:15:"/sekti-uzsakyma";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

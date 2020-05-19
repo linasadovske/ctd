@@ -1,0 +1,46 @@
+1589884591a:1:{s:11:"returns.htm";a:11:{s:8:"fileName";s:11:"returns.htm";s:7:"content";s:821:"title = "Grąžinimo sąlygos"
+url = "/grazinimo-salygos"
+layout = "Default"
+is_hidden = 0
+
+[staticPage]
+useContent = 1
+default = 0
+
+[staticPage staticPage2]
+useContent = 1
+default = 0
+==
+{% block site_body %}
+    {% partial 'page-header' without_title=true %}
+
+    <div class="block">
+        <div class="container">
+            <div class="document">
+                <div class="document__header">
+                    <h1 class="document__title">Grąžinimo sąlygos</h1>
+                    <div class="document__subtitle">This Agreement was last modified on 27 May 2018.</div>
+                </div>
+                <div class="document__content typography">
+                    {% page %}{% component 'staticPage2' %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:5:"mtime";i:1589380842;s:6:"markup";s:633:"{% block site_body %}
+    {% partial 'page-header' without_title=true %}
+
+    <div class="block">
+        <div class="container">
+            <div class="document">
+                <div class="document__header">
+                    <h1 class="document__title">Grąžinimo sąlygos</h1>
+                    <div class="document__subtitle">This Agreement was last modified on 27 May 2018.</div>
+                </div>
+                <div class="document__content typography">
+                    {% page %}{% component 'staticPage2' %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}";s:4:"code";N;s:5:"title";s:20:"Grąžinimo sąlygos";s:3:"url";s:18:"/grazinimo-salygos";s:6:"layout";s:7:"Default";s:9:"is_hidden";s:1:"0";s:10:"staticPage";a:2:{s:10:"useContent";s:1:"1";s:7:"default";s:1:"0";}s:22:"staticPage staticPage2";a:2:{s:10:"useContent";s:1:"1";s:7:"default";s:1:"0";}}}
